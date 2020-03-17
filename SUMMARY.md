@@ -1,3 +1,7 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Short Python](chapter1.md)
+* Happy Go
+* [Visit Data](visit-data.md)
+
