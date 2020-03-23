@@ -9,14 +9,13 @@
     cd x:mysql-8.0.16-winx64\bin           # 进入可执行文件目录
     mysqld --skip-grant-tables;            # 跳过权限表认证
     新打开一个 DOS 窗口再次进入可执行文件目录
-    update user set password=password("新密码") where user="root";                                 # 给 root 设置新密码
+    update user set password=password("新密码") where user="root";# 给 root 设置新密码
     flush privileges;                     # 刷新权限
     quit;                                 # 退出
 ```
 &emsp;&emsp; linux 环境忘记 root 密码，进行修改(找回)，其它 linux 环境自行百度
 
-
-```
+```sql
     service mysqld stop                   # 关闭 MySQL 服务
     vi /etc/my.cnf                        # 修改 MySQL 配置文件
     skip-grant-tables                     # 在 mysqld 下标签下添加这命令
