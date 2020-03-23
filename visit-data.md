@@ -1,7 +1,7 @@
 # Database
 ### 概念
 &emsp;&emsp;**Database:** 数据库，数据的仓库，依据 "数据结构" 来组织数据
-&emsp;&emsp;**DBMS:** 数据库管理系统，一种实现数据管理的程序软件，例如: Mysql数据库、MongoDB数据库
+&emsp;&emsp;**DBMS:** 数据库管理系统，一种实现数据管理的程序软件，例如: Mysql 数据库、MongoDB 数据库
 &emsp;&emsp;**ACID:** 数据库事务特性，分别是 **A**tomic原子性，**C**onsistency 一致性，**I**solation 隔离性，**D**urability 持久性
 &emsp;&emsp;**CAP:** 分布式系统基本需求，分别是 **C**onsistency 一致性，**A**vailability 可用性，**P**artition tolerance 分区容错性
 ### 类型
