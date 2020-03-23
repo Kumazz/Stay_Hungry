@@ -44,6 +44,16 @@
     mysql -u root -p                               # 连接 MySQL 服务器
 ```
 ![](/assets/1584932817487.jpg)
+### 其它
+```sql
+    net start mysql                        # 启动 MySQL 服务
+    net stop mysql                         # 停止 MySQL 服务
+    quit 或者 CMD+D                         # 退出
+
+```
+
+
+
 
 
 
