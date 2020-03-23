@@ -2,14 +2,36 @@
 ### 概念
 &emsp;&emsp;**MySQL**是一个流行的关系型数据库的DBMS，目前属于 Oracle 旗下，在 WEB 应用方面 MySQL 是最好的应用软件之一
 ### 修改密码
-&emsp;&emsp;忘记 root 密码，进行修改(找回)
+&emsp;&emsp; windows 环境忘记 root 密码，进行修改(找回)
 
 ```sql
-    net stop mysql                        # 停止 MySQL 服务
+    net stop mysql                         # 停止 MySQL 服务
+    cd x:mysql-8.0.16-winx64\bin           # 进入可执行文件目录
+    mysqld --skip-grant-tables;            # 跳过权限表认证
+    新打开一个 DOS 窗口再次进入可执行文件目录
+    update user set password=password("新密码") where user="root";                                     
+    # 给 root 设置新密码
+    flush privileges;                     # 刷新权限
+    quit;                                 # 退出
+```
+&emsp;&emsp; linux 环境忘记 root 密码，进行修改(找回)，其它 linux 环境自行百度
+
 
 ```
-
-
+    service mysqld stop                   # 关闭 MySQL 服务
+    vi /etc/my.cnf                        # 修改 MySQL 配置文件
+    skip-grant-tables                     # 在 mysqld 下标签下添加这命令
+    按 esc ，输入 :wq                      # 保存退出
+    service mysqld start                  # 重启 MySQL 服务
+    mysql -u root                         # 进入 MySQL
+    use mysql;                            # 连接 Mysql
+    UPDATE mysql.user SET authentication_string=password('新密码') where user='root';                        # 修改密码
+    flush privileges;                     # 刷新权限
+    exit;                                 # 退出
+    service mysql start                   # 启动 MySQL 服务
+    mysql -u root -p                      # 连接 MySQL
+    
+```
 ### 自启动
 &emsp;&emsp;**windows环境:** 【右键 计算机/此电脑】-> 【管理】-> 【服务和应用程序】-> 【服务】-> 【找到 MySQL】-> 【右键 选择属性】-> 【启动类型 改为 自动】
 &emsp;&emsp;**linux环境:**
