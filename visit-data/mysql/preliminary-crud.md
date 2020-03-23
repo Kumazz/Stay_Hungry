@@ -8,8 +8,8 @@
 
 ```sql
     SHOW DATABASES;                                    # 显示数据库
-    CREATE DATABASE dbname;                            # 创建新数据库
     USE dbname;                                        # 使用数据库
+    CREATE DATABASE dbname;                            # 创建新数据库
     DROP DATABASE dbname;                              # 删除数据库
 ```
 ### 数据表操作
@@ -20,6 +20,19 @@
     CREATE TABLE tbname(column_name column_type)       # 创建数据表
     DROP TABLE tbname                                  # 删除数据表
 ```
+### 案例
+&emsp;&emsp; 创建一个商品库，有一张存了各种水果信息的表，水果信息如下
+
+
+```
+
+```
+
+
+
+
+
+
 
 
 
