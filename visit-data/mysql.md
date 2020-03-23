@@ -2,7 +2,7 @@
 ### 概念
 &emsp;&emsp;**MySQL**是一个流行的关系型数据库的DBMS，目前属于 Oracle 旗下，在 WEB 应用方面 MySQL 是最好的应用软件之一
 ### 修改密码
-&emsp;&emsp; windows 环境忘记 root 密码，进行修改(找回)
+&emsp;&emsp;**windows 环境**忘记 root 密码，进行修改(找回)
 
 ```sql
     net stop mysql                         # 停止 MySQL 服务
@@ -13,7 +13,7 @@
     flush privileges;                     # 刷新权限
     quit;                                 # 退出
 ```
-&emsp;&emsp; linux 环境忘记 root 密码，进行修改(找回)，其它 linux 环境自行百度
+&emsp;&emsp;**linux 环境**忘记 root 密码，进行修改(找回)，其它 linux 环境自行百度
 
 ```sql
     service mysqld stop                   # 关闭 MySQL 服务
@@ -31,8 +31,8 @@
     
 ```
 ### 自启动
-&emsp;&emsp;**windows环境:** 【右键 计算机/此电脑】-> 【管理】-> 【服务和应用程序】-> 【服务】-> 【找到 MySQL】-> 【右键 选择属性】-> 【启动类型 改为 自动】
-&emsp;&emsp;**linux环境:**
+&emsp;&emsp;**windows 环境:** 【右键 计算机/此电脑】-> 【管理】-> 【服务和应用程序】-> 【服务】-> 【找到 MySQL】-> 【右键 选择属性】-> 【启动类型 改为 自动】
+&emsp;&emsp;**linux 环境:**
 ```sql
     cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysqld            # 拷贝并重命名
     chmod +x /etc/init.d/mysqld         # 赋予执行权限
