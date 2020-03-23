@@ -8,14 +8,23 @@
 ### 调试
 &emsp;&emsp;**初始化**
 ```sql
-    cd c:mysql-8.0.16-winx64\bin
-    mysqld --initialize-insecure
+    cd c:mysql-8.0.16-winx64\bin    # 进入可执行文件目录
+    mysqld --initialize-insecure    # 默认未设置 root 密码
 ```
 &emsp;&emsp;**启动服务**
 ```sql
-    c:mysql-8.0.16-winx64\bin
-    mysqld
+    c:mysql-8.0.16-winx64\bin       # 进入可执行文件目录
+    mysqld                          # 启动MySQL服务
 ```
+&emsp;&emsp;**连接服务**
+```sql
+    c:mysql-8.0.16-winx64\bin
+    mysql -u root -p                # 连接MySQL服务器，-u 为用户，-p 为 password
+```
+
+
+
+
 
 
 
