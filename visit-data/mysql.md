@@ -9,8 +9,7 @@
     cd x:mysql-8.0.16-winx64\bin           # 进入可执行文件目录
     mysqld --skip-grant-tables;            # 跳过权限表认证
     新打开一个 DOS 窗口再次进入可执行文件目录
-    update user set password=password("新密码") where user="root";                                     
-    # 给 root 设置新密码
+    update user set password=password("新密码") where user="root";                                 # 给 root 设置新密码
     flush privileges;                     # 刷新权限
     quit;                                 # 退出
 ```
@@ -25,7 +24,7 @@
     service mysqld start                  # 重启 MySQL 服务
     mysql -u root                         # 进入 MySQL
     use mysql;                            # 连接 Mysql
-    UPDATE mysql.user SET authentication_string=password('新密码') where user='root';                        # 修改密码
+    UPDATE mysql.user SET authentication_string=password('新密码') where user='root';    # 修改密码
     flush privileges;                     # 刷新权限
     exit;                                 # 退出
     service mysql start                   # 启动 MySQL 服务
