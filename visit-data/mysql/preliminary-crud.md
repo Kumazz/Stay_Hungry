@@ -9,5 +9,7 @@
 ```sql
     SHOW DATABASES;                        # 显示数据库
     CREATE DATABASE dbname;                # 创建新数据库
+    USE dbname;                            # 使用数据库
+    DROP DATABASE dbname;                  # 删除数据库
 ```
 
