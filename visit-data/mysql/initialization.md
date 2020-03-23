@@ -41,9 +41,8 @@
     export PATH=$PATH:/usr/local/mysql/bin         # 在最后添加 export
     按 esc，输入 :wq 
     source ~/.bash_profile                         # 让环境变量生效
+    mysql -u root -p                               # 连接 MySQL 服务器
 ```
-
-
 ![](/assets/1584932817487.jpg)
 
 
