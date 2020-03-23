@@ -6,4 +6,5 @@
 * [Visit Data](visit-data.md)
   * [MySQL](visit-data/mysql.md)
     * [Initialization](visit-data/mysql/initialization.md)
+    * [Preliminary CRUD](visit-data/mysql/preliminary-crud.md)
 
