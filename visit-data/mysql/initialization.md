@@ -48,7 +48,7 @@
 ```sql
     net start mysql                        # 启动 MySQL 服务
     net stop mysql                         # 停止 MySQL 服务
-    quit 或者 CMD+D                         # 退出
+    quit/exit 或者 CMD+D                    # 退出
 
 ```
 
