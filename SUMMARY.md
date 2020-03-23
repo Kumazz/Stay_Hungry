@@ -4,4 +4,5 @@
 * [Short Python](chapter1.md)
 * Happy Go
 * [Visit Data](visit-data.md)
+  * [MySQL](visit-data/mysql.md)
 
