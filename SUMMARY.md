@@ -5,6 +5,6 @@
 * Happy Go
 * [Visit Data](visit-data.md)
   * [MySQL](visit-data/mysql.md)
-    * [Preliminary CRUD](visit-data/mysql/preliminary-crud.md)
+    * [CRUD](visit-data/mysql/preliminary-crud.md)
     * [Initialization](visit-data/mysql/initialization.md)
 
