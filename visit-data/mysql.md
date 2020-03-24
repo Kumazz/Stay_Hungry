@@ -32,7 +32,7 @@
     mysqld                        # 启动 MySQL 服务
     mysql -u root -p              # 连接 MySQL 服务器
 ```
-### linux 环境调试
+### linux 环境调试 (其他 linux 环境自行百度)
 ```sql
     yum install mysql-server                # 安装
     mysql.server start                      # 启动服务
