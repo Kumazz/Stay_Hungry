@@ -3,10 +3,10 @@
 
 
 ```sql
-    CREATE USER '用户名'@'数据库ip' IDENTIFIED BY '密码';            # 创建新用户
-    RENAME USER '用户名'@'数据库ip' TO '新用户名'@'数据库ip';          # 修改用户
-    SET PASSWORD FOR '用户名'@'数据库ip' = Password('新密码');       # 修改密码
-    DROP USER '用户名';                                            # 删除用户
+    CREATE USER '用户名'@'数据库ip' IDENTIFIED BY '密码';             # 创建新用户
+    RENAME USER '用户名'@'数据库ip' TO '新用户名'@'数据库ip';           # 修改用户
+    SET PASSWORD FOR '用户名'@'数据库ip' = PASSWORD('新密码');        # 修改密码
+    DROP USER '用户名';                                             # 删除用户
     
 
 ```
