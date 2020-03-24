@@ -11,16 +11,23 @@
 
 ```
 ### 数据库操作
-
-
+    * 初阶操作
 ```sql
     SHOW DATABASES;                                     # 显示数据库
     USE 数据库名;                                        # 使用(进入)数据库
     CREATE DATABASE 数据库名;                            # 创建新数据库
     DROP DATABASE 数据库名;                              # 删除数据库
 ```
-### 数据表操作
+**查看用户,主机:** SELECT user,host FROM user;      
+    * 高阶操作
 
+
+```sql
+
+```
+
+
+### 数据表操作
 
 ```sql    
     SHOW TABLES;                                       # 显示数据表
