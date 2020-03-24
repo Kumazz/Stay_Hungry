@@ -3,6 +3,13 @@
 &emsp;&emsp;**CURD:** **C**reate 创建、**U**pdate 更新、**R**etrieve 读取和 **D**elete 删除
 &emsp;&emsp;**SQL 命令**不区分大小写(命令建议大写)，表和数据库名小写，命令以 ; 结尾
 &emsp;&emsp;**注释:** 单行注释 -- ；多行注释 /**/
+### 其它
+```sql
+    net start mysql                        # 启动 MySQL 服务
+    net stop mysql                         # 停止 MySQL 服务
+    quit/exit 或者 CMD+D                    # 退出
+
+```
 ### 数据库操作
 
 
