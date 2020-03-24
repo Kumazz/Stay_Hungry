@@ -3,10 +3,10 @@
 
 
 ```sql
-    CREATE USER 'username'@'ip' IDENTIFIED BY 'password';         # 创建新用户
-    RENAME USER 'username'@'ip' TO 'username'@'ip';               # 修改用户
-    SET PASSWORD FOR 'username'@'ip';                             # 修改密码
-    DROP USER 'username';                                         # 删除用户
+    CREATE USER '用户名'@'数据库ip' IDENTIFIED BY '密码';            # 创建新用户
+    RENAME USER '用户名'@'数据库ip' TO '新用户名'@'数据库ip';          # 修改用户
+    SET PASSWORD FOR '用户名'@'数据库ip' = Password('新密码');       # 修改密码
+    DROP USER '用户名';                                            # 删除用户
     
 
 ```
@@ -15,7 +15,8 @@
 
 
 ```sql
-
+    SHOW GRANTS FOR '用户名'@'数据库ip';                              # 查看用户权限
+    GREANT 权限 ON 数据库.表 TO '用户名'@'数据库ip';                    # 授权
 ```
 
 
@@ -40,7 +41,7 @@
     service mysqld stop                   # 关闭 MySQL 服务
     vi /etc/my.cnf                        # 修改 MySQL 配置文件
     skip-grant-tables                     # 在 mysqld 下标签下添加这命令
-    按 esc ，输入 :wq                      # 保存退出
+    按 esc ,输入 :wq                       # 保存退出
     service mysqld start                  # 重启 MySQL 服务
     mysql -u root                         # 进入 MySQL
     use mysql;                            # 连接 Mysql
