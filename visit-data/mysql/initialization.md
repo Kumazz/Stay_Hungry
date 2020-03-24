@@ -13,7 +13,9 @@
 
 ```sql
     CREATE DATABASE IF NOT EXISTS 数据库名;                                # 创建数据库如果该库不存在
-    CREATE DATABASE IF NOT EXISTS 数据库名 DEFAULT CHARSET = 'UTF8'        # 创建数据库并指明编码
+    CREATE DATABASE IF NOT EXISTS 数据库名 DEFAULT CHARSET = '编码'        # 创建数据库并指明编码
+    
+    ALTER DATABASE 数据库名 CHARACTER SET '编码'                            # 修改编码
 ```
 
 
