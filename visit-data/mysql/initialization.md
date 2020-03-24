@@ -1,4 +1,23 @@
 # 初始
+### 数据库操作
+    * **初阶操作**
+```sql
+    SHOW DATABASES;                                     # 显示数据库
+    USE 数据库名;                                        # 使用(进入)数据库
+    CREATE DATABASE 数据库名;                            # 创建新数据库
+    DROP DATABASE 数据库名;                              # 删除数据库
+```
+**查看用户,主机:** SELECT user,host FROM user;      
+    * **高阶操作**
+
+
+```sql
+    CREATE DATABASE IF NOT EXISTS 数据库名;                                # 创建数据库如果该库不存在
+    CREATE DATABASE IF NOT EXISTS 数据库名 DEFAULT CHARSET = 'UTF8'        # 创建数据库并指明编码
+```
+
+
+
 ### 用户管理
 
 
