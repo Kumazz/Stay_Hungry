@@ -75,7 +75,7 @@
     service mysqld start                  # 重启 MySQL 服务
     mysql -u root                         # 进入 MySQL
     use mysql;                            # 连接 Mysql
-    UPDATE mysql.user SET authentication_string=password('新密码') where user='root';    # 修改密码
+    UPDATE mysql.user SET authentication_string= '新密码' where user='root';    # 修改密码
     flush privileges;                     # 刷新权限
     exit;                                 # 退出
     service mysql start                   # 启动 MySQL 服务
