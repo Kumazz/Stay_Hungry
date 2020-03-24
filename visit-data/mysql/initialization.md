@@ -1,3 +1,15 @@
+# 初始
+### 用户管理
+
+
+```sql
+    CREATE USER 'username' @ 'ip' IDENTIFIED BY 'password';        # 创建新用户
+    RENAME USER 'username' @ 'ip';                    # 修改用户
+    SET PASSWORD FOR 'username' @ 'ip';               # 修改密码
+    
+
+```
+
 
 ### 修改密码
 &emsp;&emsp;**windows 环境**忘记 root 密码，进行修改(找回)
