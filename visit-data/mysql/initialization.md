@@ -4,7 +4,7 @@
 
 ```sql
     CREATE USER 'username'@'ip' IDENTIFIED BY 'password';         # 创建新用户
-    RENAME USER 'username'@'ip' TO 'username' @ 'ip';             # 修改用户
+    RENAME USER 'username'@'ip' TO 'username'@'ip';               # 修改用户
     SET PASSWORD FOR 'username'@'ip';                             # 修改密码
     DROP USER 'username';                                         # 删除用户
     
