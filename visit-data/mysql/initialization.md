@@ -10,7 +10,6 @@
 **查看用户,主机:** SELECT user,host FROM user;      
     * **高阶操作**
 
-
 ```sql
     CREATE DATABASE IF NOT EXISTS 数据库名;                                # 创建数据库如果该库不存在
     CREATE DATABASE IF NOT EXISTS 数据库名 DEFAULT CHARSET = '编码'        # 创建数据库并指明编码
@@ -33,10 +32,27 @@
 ```
 **注意:** @ 左右不能有空格
 ### 授权管理
-**常用权限一览表**  
-|权限名|说明  |
-|:---:|:---:|
-|1    |2    |
+* **常用权限一览表** 
+ 
+<table>
+    <tr>
+        <th rowspan="2">权限</th>
+        <th colspan="2">释义</th>
+    </tr>
+    <tr>
+        <td>usage</td>
+        <td>无访问权限</td>
+    </tr>
+    <tr>
+        <td>all privileges</td>
+        <td>除 grant 外的所有权限</td>
+    </tr>
+    <tr>
+        <td>select,insert</td>
+        <td>仅查和插入权限</td>
+    </tr>
+</table>
+
 
 * **初阶操作**
 
