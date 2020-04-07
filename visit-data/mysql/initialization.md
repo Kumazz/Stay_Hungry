@@ -64,7 +64,7 @@
 * **高阶操作**
 
 ```sql
-    GRANT ALL PRIVILEGES ON 数据库.* TO '用户名@数据库ip'    # 授权数据库中的所有表
+    GRANT ALL PRIVILEGES ON 数据库.* TO '用户名@数据库ip'            # 授权数据库中的所有表
 ```
 
 
