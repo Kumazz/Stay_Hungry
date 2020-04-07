@@ -2,7 +2,7 @@
 ### 概念
 &emsp;&emsp;**CURD:** **C**reate 创建、**U**pdate 更新、**R**etrieve 读取和 **D**elete 删除
 &emsp;&emsp;**SQL 命令**不区分大小写(命令建议大写)，表和数据库名小写，命令以 ; 结尾
-&emsp;&emsp;**注释:** 单行注释 -- ；多行注释 \/* */
+&emsp;&emsp;**注释:** 单行注释 -- ；多行注释 /\* SQL语句 \*/
 ### 其它
 ```sql
     net start mysql                        # 启动 MySQL 服务
@@ -23,8 +23,24 @@
 **注意:** @ 左右不能有空格；ip地址指的是访问机器的地址，不写就默认是本地
 ### 授权管理
 &emsp;&emsp;**常用权限一览表** 
-
-
+<table>
+    <tr>
+        <th rowspan="2">权限</th>
+        <th colspan="2">释义</th>
+    </tr>
+    <tr>
+        <td>usage</td>
+        <td>无访问权限</td>
+    </tr>
+    <tr>
+        <td>all privileges</td>
+        <td>除 grant 外的所有权限</td>
+    </tr>
+    <tr>
+        <td>select,insert</td>
+        <td>仅查和插入权限</td>
+    </tr>
+</table>
 
 &emsp;&emsp;**初阶操作**
 
