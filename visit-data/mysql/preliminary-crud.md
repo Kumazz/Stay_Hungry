@@ -27,7 +27,18 @@
         <td>DATE、TIME、YEAR、DATETIME、TIMESTAMP</td>
         <td>推荐使用 DATETIME</td>
     </tr>
+    <tr>
+        <td>枚举类型</td>
+        <td>ENUM</td>
+        <td>规定选项</td>
+    </tr>
 </table>
+&emsp;&emsp;**PS** 
+```sql
+    CREATE TABLE tbname(id int,size ENUM('L','M','XL');      # 创建枚举
+    INSERT INTO tbname(id,size) VALUES(1,'枚举内容')
+
+```
 
 &emsp;&emsp;**常用字段属性** 
 <table>
