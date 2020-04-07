@@ -62,7 +62,12 @@
     REVOKE 权限 ON 数据库.表 FROM '用户名'@'数据库ip';                  # 取消权限
 ```
 * **高阶操作**
-    * 权限  
+
+```sql
+    GRANT ALL PRIVILEGES ON 数据库.* TO '用户名@数据库ip'    # 授权数据库中的所有表
+```
+
+
    
     
 
