@@ -53,7 +53,7 @@
         <th colspan="2">释义</th>
     </tr>
     <tr>
-        <td>signer / unsigner</td>
+        <td>signed  / unsigned</td>
         <td>有符号 / 无符号</td>
     </tr>
     <tr>
@@ -67,6 +67,10 @@
     <tr>
         <td>primary key</td>
         <td>主键，约束(唯一列且不能为空)、加速查找</td>
+    </tr>
+    <tr>
+        <td>foreign key</td>
+        <td>外键，约束(唯一列且不能为空)、加速查找</td>
     </tr>
 </table>
 ### 数据库操作
