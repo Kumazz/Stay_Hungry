@@ -1,6 +1,6 @@
 # 初始
 ### 数据库操作
-    * **初阶操作**
+&emsp;&emsp;**初阶操作**
 ```sql
     SHOW DATABASES;                                     # 显示数据库
     USE 数据库名;                                        # 使用(进入)数据库
@@ -8,7 +8,7 @@
     DROP DATABASE 数据库名;                              # 删除数据库
 ```
 **查看用户,主机:** SELECT user,host FROM user;      
-    * **高阶操作**
+&emsp;&emsp;**高阶操作**
 
 ```sql
     CREATE DATABASE IF NOT EXISTS 数据库名;                                # 创建数据库如果该库不存在
@@ -17,10 +17,7 @@
     ALTER DATABASE 数据库名 CHARACTER SET '编码'                            # 修改编码
 ```
 
-
-
 ### 用户管理
-
 
 ```sql
     CREATE USER '用户名'[ @'ip地址' ] IDENTIFIED BY '密码';             # 创建新用户
@@ -32,18 +29,34 @@
 ```
 **注意:** @ 左右不能有空格；ip地址指的是访问机器的地址，不写就默认是本地
 ### 授权管理
-* **常用权限一览表** 
- 
+&emsp;&emsp;**常用权限一览表** 
+ <table>
+    <tr>
+        <th rowspan="2">权限</th>
+        <th colspan="2">释义</th>
+    </tr>
+    <tr>
+        <td>usage</td>
+        <td>无访问权限</td>
+    </tr>
+    <tr>
+        <td>all privileges</td>
+        <td>除 grant 外的所有权限</td>
+    </tr>
+    <tr>
+        <td>select,insert</td>
+        <td>仅查和插入权限</td>
+    </tr>
+</table>
 
-
-* **初阶操作**
+&emsp;&emsp;**初阶操作**
 
 ```sql
     SHOW GRANTS FOR '用户名'[ @'ip地址' ];                              # 查看用户权限
     GREANT 权限1,权限2 ON 数据库.表 TO '用户名'[ @'ip地址' ];              # 授权
     REVOKE 权限 ON 数据库.表 FROM '用户名'[ @'ip地址' ];                  # 取消权限
 ```
-* **高阶操作**
+&emsp;&emsp;**高阶操作**
 
 ```sql
     GRANT 权限 ON 数据库 TO '用户@%'                                  # 用户在任意ip下访问
