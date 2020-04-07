@@ -1,6 +1,6 @@
 # 初阶操作
 ### 概念
-&emsp;&emsp;**常用数据类型: 数值(整型、浮点型)、字符串型、时间类型** 
+&emsp;&emsp;**常用数据类型: 数值(整型、浮点型)、字符串型、时间类型、枚举类型、集合类型** 
 <table>
     <tr>
         <th rowspan="2">类型</th>
@@ -32,15 +32,25 @@
         <td>ENUM</td>
         <td>规定选项</td>
     </tr>
+    <tr>
+        <td>集合类型</td>
+        <td>ENUM</td>
+        <td>规定选项</td>
+    </tr>
 </table>
-&emsp;&emsp;**PS** 
+
+
 ```sql
     CREATE TABLE tbname(id int,size ENUM('L','M','XL');      # 创建枚举
     INSERT INTO tbname(id,size) VALUES(1,'枚举内容')
+    
+    CREATE TABLE tbname(id int,size SET('a','b','c');       # 创建枚举
+    INSERT INTO tbname(id,size) VALUES(1,'集合内的任意组合')
 
 ```
 
 &emsp;&emsp;**常用字段属性** 
+
 <table>
     <tr>
         <th rowspan="2">属性</th>
