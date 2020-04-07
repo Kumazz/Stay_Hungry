@@ -31,6 +31,24 @@
 ### 授权管理
 &emsp;&emsp;**常用权限一览表** 
 
+<table>
+  <tr>
+<th rowspan="2">权限</th>
+<th colspan="2">释义</th>
+</tr>
+<tr>
+<td>usage</td>
+<td>无访问权限</td>
+</tr>
+<tr>
+<td>all privileges</td>
+<td>除 grant 外的所有权限</td>
+</tr>
+<tr>
+<td>select,insert</td>
+<td>仅查和插入权限</td>
+</tr>
+</table>
 
 &emsp;&emsp;**初阶操作**
 
@@ -86,7 +104,7 @@
     cd /usr/local/mysql/bin/                    # 进入执行文件目录
     ./mysql
     FLUSH PRIVILEGES;                           # 生效命令
-    UPDATE mysql.user SET authentication_string = '新密码' WHERE user = 'root';                                     # 修改密码
+    UPDATE mysql.user SET authentication_string = '新密码' WHERE user = 'root';                 # 修改密码
 ```
 
 ### 自启动
