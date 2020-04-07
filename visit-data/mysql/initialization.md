@@ -52,7 +52,7 @@
 &emsp;&emsp;**高阶操作**
 
 ```sql
-    GRANT 权限 ON 数据库 TO '用户@%'                                  # 用户在任意ip下访问
+    GRANT 权限 ON 数据库 TO '用户'@'%'                                  # 用户在任意ip下访问
     GRANT ALL PRIVILEGES ON 数据库.* TO '用户名'[ @'ip地址' ]              # 授权数据库中的所有表
     GRANT SELECT ON '.' TO '用户名'[ @'ip地址' ]                          # 授权所有数据库
 ```
