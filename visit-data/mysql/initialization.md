@@ -93,6 +93,19 @@
     mysql -u root -p                      # 连接 MySQL
     
 ```
+&emsp;&emsp;**mac os 环境**忘记 root 密码，进行修改(找回)
+
+```sql
+    在系统偏好设置里面关闭 MySQL 服务，在终端执行以下命令
+    cd /usr/local/mysql/bin                     # 进入执行文件目录
+    sudo ./mysqld_safe --skip-grant-tables      # 关闭的服务会自动启动
+    新开一个终端窗口
+    cd /usr/local/mysql/bin/                    # 进入执行文件目录
+    ./mysql
+    FLUSH PRIVILEGES;                           # 生效命令
+    UPDATE mysql.user SET authentication_string = '新密码' WHERE user = 'root';                                     # 修改密码
+```
+
 ### 自启动
 &emsp;&emsp;**windows 环境:** 【右键 计算机/此电脑】-> 【管理】-> 【服务和应用程序】-> 【服务】-> 【找到 MySQL】-> 【右键 选择属性】-> 【启动类型 改为 自动】
 &emsp;&emsp;**linux 环境:**
