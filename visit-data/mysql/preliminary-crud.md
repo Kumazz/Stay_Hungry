@@ -93,6 +93,7 @@
     SHOW TABLES;                                       # 显示(查看)数据表
     CREATE TABLE tbname(column_name column_type) DEFAULT CHARSET = 'utf8';      # 创建数据表
     DROP TABLE tbname;                                  # 删除数据表
+    UPDATE tbname SET colname                           # 修改数据
     
     DELETE FROM tbname;                                 # 清空表内数据保留表
     TRUNCATE TABLE tbname;                              # 清空数据，推荐使用，速度快适合删除大量数据
@@ -102,6 +103,9 @@
 ```sql
     CREATE TABLE tbname(colname coltype) ENGINE = 'innodb' DEFAULT CHARSET = 'utf8';        # 支持事务回滚操作
     
+    DELETE FROM tbname WHERE condition                                  # 根据条件清空
+    UPDATE tbname SET colname WHERE condition                     # 根据条件修改
+  
 ```
 
 ### 数据操作
