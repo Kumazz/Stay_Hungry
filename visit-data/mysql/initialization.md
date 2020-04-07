@@ -23,14 +23,14 @@
 
 
 ```sql
-    CREATE USER '用户名'@'数据库ip' IDENTIFIED BY '密码';             # 创建新用户
-    RENAME USER '用户名'@'数据库ip' TO '新用户名'@'数据库ip';           # 修改用户
-    SET PASSWORD FOR '用户名'@'数据库ip' = '新密码';                  # 修改密码
+    CREATE USER '用户名'[ @'ip地址' ] IDENTIFIED BY '密码';             # 创建新用户
+    RENAME USER '用户名'[ @'ip地址' ] TO '新用户名'[ @'ip地址' ];             # 修改用户
+    SET PASSWORD FOR '用户名'[ @'ip地址' ] = '新密码';                   # 修改密码
     DROP USER '用户名';                                             # 删除用户
     
 
 ```
-**注意:** @ 左右不能有空格
+**注意:** @ 左右不能有空格；ip地址指的是访问机器的地址，不写就默认是本地
 ### 授权管理
 * **常用权限一览表** 
  
@@ -57,16 +57,16 @@
 * **初阶操作**
 
 ```sql
-    SHOW GRANTS FOR '用户名'@'数据库ip';                              # 查看用户权限
-    GREANT 权限1,权限2 ON 数据库.表 TO '用户名'@'数据库ip';              # 授权
-    REVOKE 权限 ON 数据库.表 FROM '用户名'@'数据库ip';                  # 取消权限
+    SHOW GRANTS FOR '用户名'[ @'ip地址' ];                              # 查看用户权限
+    GREANT 权限1,权限2 ON 数据库.表 TO '用户名'[ @'ip地址' ];              # 授权
+    REVOKE 权限 ON 数据库.表 FROM '用户名'[ @'ip地址' ];                  # 取消权限
 ```
 * **高阶操作**
 
 ```sql
-    GRANT 权限 ON 数据库 TO '用户@%'                                  # 用户在任意数据库ip下访问
-    GRANT ALL PRIVILEGES ON 数据库.* TO '用户名@数据库ip'            # 授权数据库中的所有表
-    GRANT SELECT ON '.' TO '用户名@数据库ip'                        # 授权所有数据库
+    GRANT 权限 ON 数据库 TO '用户@%'                                  # 用户在任意ip下访问
+    GRANT ALL PRIVILEGES ON 数据库.* TO '用户名'[ @'ip地址' ]              # 授权数据库中的所有表
+    GRANT SELECT ON '.' TO '用户名'[ @'ip地址' ]                          # 授权所有数据库
 ```
 
 ### 修改密码
