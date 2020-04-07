@@ -22,6 +22,11 @@
         <td>char(10)、varchar(10)、text</td>
         <td>不定长char(字节长度)与varchar区别在于后者节省空间，但是速度较慢</td>
     </tr>
+    <tr>
+        <td>时间类型</td>
+        <td>DATE、TIME、YEAR、DATETIME、TIMESTAMP</td>
+        <td>推荐使用 DATETIME</td>
+    </tr>
 </table>
 
 &emsp;&emsp;**常用字段属性** 
