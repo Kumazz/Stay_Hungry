@@ -7,5 +7,6 @@
   * [MySQL](visit-data/mysql.md)
     * [Initialization](visit-data/mysql/initialization.md)
     * [CRUD](visit-data/mysql/preliminary-crud.md)
+    * [MultiTables](visit-data/mysql/multitables.md)
     * [DAS](visit-data/mysql/das.md)
 
