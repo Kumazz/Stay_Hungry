@@ -21,16 +21,23 @@
 
 ```sql    
     SHOW TABLES;                                       # 显示(查看)数据表
-    CREATE TABLE tbname(column_name column_type)       # 创建数据表
+    CREATE TABLE tbname(column_name column_type) DEFAULT CHARSET = 'utf8'      # 创建数据表
     DROP TABLE tbname                                  # 删除数据表
 ```
-### 案例
-&emsp;&emsp; 创建一个商品库，有一张存了各种水果信息的表，水果信息如下
 
+### 数据操作
 
+```sql
+    SELECT * FROM tbname;                              # 显示(查看)数据
+    
 ```
 
-```
+
+
+
+
+
+
 
 
 
