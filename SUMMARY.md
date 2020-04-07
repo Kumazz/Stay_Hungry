@@ -7,4 +7,5 @@
   * [MySQL](visit-data/mysql.md)
     * [Initialization](visit-data/mysql/initialization.md)
     * [CRUD](visit-data/mysql/preliminary-crud.md)
+    * [DAS](visit-data/mysql/das.md)
 

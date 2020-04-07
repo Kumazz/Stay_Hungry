@@ -1,10 +1,38 @@
 # 初阶操作
-### 授权管理
+### 概念
+&emsp;&emsp;**常用数据类型** 
+<table>
+    <tr>
+        <th rowspan="2">类型</th>
+        <th colspan="2">内容</th>
+        <th colspan="3">释义</th>
+    </tr>
+    <tr>
+        <td>整型</td>
+        <td>tinyint、int、bigint</td>
+        <td>整型，根据有无符号、数据大小选择类型</td>
+    </tr>
+    <tr>
+        <td>浮点型</td>
+        <td>float、double、decimal(10,2)</td>
+        <td>单精度、双精度一般不怎么精确，采用 decimal(总数,位数)</td>
+    </tr>
+    <tr>
+        <td>字符串类</td>
+        <td>char(10)、varchar(10)</td>
+        <td>char(字节长度)与varchar区别在于后者节省空间，但是速度较慢</td>
+    </tr>
+</table>
+
 &emsp;&emsp;**常用字段属性** 
 <table>
     <tr>
         <th rowspan="2">属性</th>
         <th colspan="2">释义</th>
+    </tr>
+    <tr>
+        <td>signer / unsigner</td>
+        <td>有符号 / 无符号</td>
     </tr>
     <tr>
         <td>null / not null</td>
