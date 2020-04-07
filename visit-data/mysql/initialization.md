@@ -68,13 +68,6 @@
     GRANT SELECT ON '.' TO '用户名@数据库ip'                        # 授权所有数据库
 ```
 
-
-   
-    
-
-
-
-
 ### 修改密码
 &emsp;&emsp;**windows 环境**忘记 root 密码，进行修改(找回)
 
@@ -83,8 +76,8 @@
     cd x:mysql-8.0.16-winx64\bin           # 进入可执行文件目录
     mysqld --skip-grant-tables;            # 跳过权限表认证
     新打开一个 DOS 窗口再次进入可执行文件目录
-    update user set password=password("新密码") where user="root";# 给 root 设置新密码
-    flush privileges;                     # 刷新权限
+    update user set password=password("新密码") where user="root";    # 给 root 设置新密码
+    flush privileges;                     # 将数据读取到内存中，从而立即生效
     quit;                                 # 退出
 ```
 &emsp;&emsp;**linux 环境**忘记 root 密码，进行修改(找回)，其它 linux 环境自行百度
