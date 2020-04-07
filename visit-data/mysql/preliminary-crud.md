@@ -1,8 +1,74 @@
 # 初阶操作
 ### 概念
 &emsp;&emsp;**常用数据类型: 数值(整型、浮点型)、字符串型、时间类型、枚举类型、集合类型** 
+<table>
+    <tr>
+        <th rowspan="2">类型</th>
+        <th colspan="2">内容</th>
+        <th colspan="3">释义</th>
+    </tr>
+    <tr>
+        <td>整型</td>
+        <td>tinyint、int、bigint</td>
+        <td>整型，根据有无符号、数据大小选择类型</td>
+    </tr>
+    <tr>
+        <td>浮点型</td>
+        <td>float、double、decimal(10,2)</td>
+        <td>单精度、双精度一般不怎么精确，采用 decimal(总数,位数)</td>
+    </tr>
+    <tr>
+        <td>字符串类</td>
+        <td>char(10)、varchar(10)、text</td>
+        <td>不定长char(字节长度)与varchar区别在于后者节省空间，但是速度较慢            </td>
+    </tr>
+    <tr>
+        <td>时间类型</td>
+        <td>DATE、TIME、YEAR、DATETIME、TIMESTAMP</td>
+        <td>推荐使用 DATETIME</td>
+    </tr>
+    <tr>
+        <td>枚举类型</td>
+        <td>ENUM</td>
+        <td>规定选项</td>
+    </tr>
+    <tr>
+        <td>集合类型</td>
+        <td>SET</td>
+        <td>排列组合</td>
+    </tr>
+</table>
+```sql
+    CREATE TABLE tbname(id int,size ENUM('L','M','XL');           # 创建枚举
+    INSERT INTO tbname(id,size) VALUES(1,'枚举内容')
+    CREATE TABLE tbname(id int,size SET('a','b','c');             # 创建集合
+    INSERT INTO tbname(id,size) VALUES(1,'集合内的任意组合')
 
+```
+&emsp;&emsp;**常用字段属性**
 
+<table>
+    <tr>
+        <th rowspan="2">属性</th>
+        <th colspan="2">释义</th>
+    </tr>
+    <tr>
+        <td>signer / unsigner</td>
+        <td>有符号 / 无符号</td>
+    </tr>
+    <tr>
+        <td>null / not null</td>
+        <td>可以空值 / 不可为空</td>
+    </tr>
+    <tr>
+        <td>auto_increment</td>
+        <td>自增(唯一列)，与主键搭配</td>
+    </tr>
+    <tr>
+        <td>primary key</td>
+        <td>主键，约束(唯一列且不能为空)、加速查找</td>
+    </tr>
+</table>
 ### 数据库操作
 &emsp;&emsp;**初阶操作**
 ```sql
