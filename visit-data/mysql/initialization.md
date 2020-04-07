@@ -32,22 +32,22 @@
 &emsp;&emsp;**常用权限一览表** 
 
 <table>
-  <tr>
-<th rowspan="2">权限</th>
-<th colspan="2">释义</th>
-</tr>
-<tr>
-<td>usage</td>
-<td>无访问权限</td>
-</tr>
-<tr>
-<td>all privileges</td>
-<td>除 grant 外的所有权限</td>
-</tr>
-<tr>
-<td>select,insert</td>
-<td>仅查和插入权限</td>
-</tr>
+    <tr>
+        <th rowspan="2">权限</th>
+        <th colspan="2">释义</th>
+    </tr>
+    <tr>
+        <td>usage</td>
+        <td>无访问权限</td>
+    </tr>
+    <tr>
+        <td>all privileges</td>
+        <td>除 grant 外的所有权限</td>
+    </tr>
+    <tr>
+        <td>select,insert</td>
+        <td>仅查和插入权限</td>
+    </tr>
 </table>
 
 &emsp;&emsp;**初阶操作**
