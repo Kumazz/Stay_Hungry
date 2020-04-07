@@ -1,6 +1,6 @@
 # 初阶操作
 ### 概念
-&emsp;&emsp;**常用数据类型** 
+&emsp;&emsp;**常用数据类型: 数值(整型、浮点型)、字符串型、时间类型** 
 <table>
     <tr>
         <th rowspan="2">类型</th>
@@ -19,8 +19,8 @@
     </tr>
     <tr>
         <td>字符串类</td>
-        <td>char(10)、varchar(10)</td>
-        <td>char(字节长度)与varchar区别在于后者节省空间，但是速度较慢</td>
+        <td>char(10)、varchar(10)、text</td>
+        <td>不定长char(字节长度)与varchar区别在于后者节省空间，但是速度较慢</td>
     </tr>
 </table>
 
