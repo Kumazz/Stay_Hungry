@@ -45,7 +45,8 @@
     CREATE TABLE tbname(column_name column_type) DEFAULT CHARSET = 'utf8';      # 创建数据表
     DROP TABLE tbname;                                  # 删除数据表
     
-    DELETE TABLE tbname;                                # 清空表内数据保留表
+    DELETE FROM tbname;                                 # 清空表内数据保留表
+    TRUNCATE TABLE tbname;                              # 清空数据，推荐使用，速度快适合删除大量数据
 ```
 &emsp;&emsp;**高阶操作**
 
