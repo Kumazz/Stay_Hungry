@@ -11,11 +11,6 @@
     cd c:mysql-8.0.16-winx64\bin    # 进入可执行文件目录
     mysqld --initialize-insecure    # 默认未设置 root 密码
 ```
-&emsp;&emsp;**启动服务**
-```sql
-    c:mysql-8.0.16-winx64\bin       # 进入可执行文件目录
-    mysqld                          # 启动MySQL服务
-```
 &emsp;&emsp;**连接服务**
 ```sql
     c:mysql-8.0.16-winx64\bin       # 进入可执行文件目录
@@ -49,11 +44,15 @@
 ![](/assets/1584932817487.jpg)
 
 * ### 制作 MySQL 服务为 windows 服务
-
-
+   * &emsp;&emsp;**制作服务**
 ```
     c:\mysql-8.0.16-winx64\bin\mysqld --install    # 终端执行，制作 MySQL 的 windows 服务
     c:\mysql-8.0.16-winx64\bin\mysqld --remove     # 终端执行，移除 MySQL 的 windows 服务
+```
+   * &emsp;&emsp;**启动服务**
+```sql
+    c:mysql-8.0.16-winx64\bin       # 进入可执行文件目录
+    mysqld                          # 启动MySQL服务
 ```
 
 
