@@ -1,11 +1,22 @@
-# Web 开发
-### 概念
-&emsp;&emsp;**Web 开发:** 网站只是 Web 开发技术的一种应用，诸如微信公众号平台、小程序、iOS和Andriod都需要 Web 开发技术支持
-&emsp;&emsp;**Web 框架:** 进行 Web 应用开发的一种软件架构，已提供比较完整的业务和功能服务，开发者只需在此基础上进行轻量级开发即可
-&emsp;&emsp;**全栈开发技术:** 前端开发技术、后端开发技术、数据库技术、安全开发技术等主流开发技术
-&emsp;&emsp;**前端开发基础:** HTML、CSS、Javascript ( ES5 )、JQuery
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 主流前端框架: Vue、React、Augular、Bootstrap
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 其他前端技术:HTML5、CSS3、 ES6、Typescript
-&emsp;&emsp;**后端开发基础:** Python、Go、Java、PHP
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 主流后端框架: Python ( Flask、Django、Tornado )、Go ( Beego、Gin )等
-&emsp;&emsp;**数据库开发基础:** MySQL、MSSQL、PostgreSQL、Redis、MongoDB
+# 视图
+
+
+
+```python
+    &emsp;&emsp;**MySQL** 是一个流行的关系型数据库的DBMS，目前属于 Oracle 旗下，在 WEB 应用方面 MySQL 是最好的应用软件之一### 安装( mysql版本8.0.16,默认安装 c 盘可更改 )
+&emsp;&emsp;**windows / mac os:** https://dev.mysql.com/downloads/mysql/
+&emsp;&emsp;**linux:** yum install mysql-server
+&emsp;&emsp;**源码安装:** 下载的文件是压缩包( .zip等，不是.msi)，将其解压后(如解压在C盘根目录)进入文件夹在 bin 目录下进行命令操作
+* ### windows 环境调试
+&emsp;&emsp;**初始化**
+
+
+
+
+```
+
+
+
+
+
+
