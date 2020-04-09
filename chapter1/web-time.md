@@ -11,9 +11,15 @@
 &emsp;&emsp;**数据库开发基础:** MySQL、MSSQL、PostgreSQL、Redis、MongoDB
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 数据库框架: SQLAchemy等
 &emsp;&emsp;**安全开发基础:** 服务器安全、数据库安全、代码安全开发
-&emsp;&emsp;**网站架构:** MVC、MVVNM、MVP
+&emsp;&emsp;**网站架构:** MVC、MVVM、MVP
 ### Python Web 开发
-&emsp;&emsp;**Flask:** 数据库，数据的仓库，依据 "数据结构" 来组织数据
+&emsp;&emsp;**Flask:** 轻量级 Web 框架，模板、ORM等通过拓展提供，适合学习者学习框架开发
+&emsp;&emsp;**Django:** 大而全一站式 Web 框架，提供了模板、ORM等甚至后台功能
+
+
+
+
+
 
 
 
