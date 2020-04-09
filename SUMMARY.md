@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Short Python](chapter1.md)
+  * [Web Time](chapter1/web-time.md)
+    * [Flask](chapter1/web-time/flask.md)
 * Happy Go
 * [Visit Data](visit-data.md)
   * [MySQL](visit-data/mysql.md)
