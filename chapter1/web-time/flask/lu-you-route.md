@@ -11,8 +11,8 @@
   # 传入 __name__ 初始化一个 Flask 实例
     app = Flask(__name__)
     
-  # app.route装饰器，映射 URL 和执行函数，如: 将 index URL 映射到了 index 函数上
-    @app.route('/index/')
+  # app.route装饰器，映射 URL 和执行函数，如: 将根 URL 映射到了 index 函数上
+    @app.route('/')
     def index():
       return ’Hello Flask'
       
