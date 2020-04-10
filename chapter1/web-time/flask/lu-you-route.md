@@ -26,6 +26,11 @@
 ```python
   # 语法如下，尖括号是固定写法，variable 默认数据类型是字符串，可以通过 converter即类型名称来制定类型
   @app.route('/< converter:variable >/')
+  
+  # 构造 id 的 aticles URL
+  @app.route('/aticles/<id>')
+  def aticles(id):
+    return f'Hello Flask 的第{id}篇'
 
 ```
 
