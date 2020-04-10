@@ -64,6 +64,26 @@
   def u(id):
     return f'uuid是{id}'
 ```
+### 构造 URL ( url_for )
+&emsp;&emsp; url_for函数可以通过函数获取 URL，解决修改一处 URL 对应的函数名，不用导出去替换 URL，同时该函数会转义一些特殊字符和 unicode 字符串
+
+
+```python
+  from flask import Flask,url_for
+  app = Flask(__name__)
+  
+  @app.route('/article/<id>/')
+  def article(id):
+    return f'这是文章第{id}章'
+    
+  @app.route('/')
+  def index():
+    return url_for('article',id=1)
+    
+```
+
+
+
 
 
 
