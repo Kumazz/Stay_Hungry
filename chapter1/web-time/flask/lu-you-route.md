@@ -34,29 +34,47 @@
   def aticles(id):
     return f'Hello Flask 的第{id}篇'
 ```
-&emsp;&emsp; 构造整型 id 的 aticles URL，同时可以构造浮点型
+&emsp;&emsp;构造携带 / 的 URL
 
-构造携带 / 的 URL
+```python
   @app.route('/aticles/<path:test>/')
   def url_path(test):
     return f'携带了 / 的路径'
-  
+
+```
 &emsp;&emsp; 构造指定多种路径,item()可以接收两个 URL，一定要传 url_path 参数，url_path名称任取
 
 ```python
   @app.route('/<any(url1,url2):url_path>/')
   def item(url_path):
     return url_path
+    
+  # 例如
+  @app.route('<any(blog,aticles):url>/<id>/')
+  def detail(url,id):
+    if url == 'blog':
+      return f'这是博客第{id}章'
+    else:
+      return f'这是文章第{id}章'
 ```
+&emsp;&emsp; 构造 uuid 的 URL，用于对外显示数字
+
+```python
+  @app.route('/u/<uuid:id>')
+  def u(id):
+    return f'uuid是{id}'
+```
+
+
 
 
   
     
-  # 构造传统 ?= 形式传递参数
+
 
 
     
-  # 构造传统 ?= 形式传递参数
+
 
   
 
