@@ -31,6 +31,11 @@
   @app.route('/aticles/<int:id>')
   def aticles(id):
     return f'Hello Flask 的第{id}篇'
+    
+  # 构造携带 / 的 URL
+  @app.route('/aticles/<path:test>/')
+  def url_path(test):
+    return f'携带了 / 的路径'
   
   # 构造指定多种路径,item()可以接收两个 URL，一定要传 url_path 参数，url_path名称任取
   @app.route('/<any(url1,url2):url_path>/')
