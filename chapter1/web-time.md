@@ -19,9 +19,16 @@
 ### URL 详解
 &emsp;&emsp;**URL:**  统一资源定位符
 ```html
-    
+  scheme://host:port/path/?query-string=xxx#achor
 
 ```
+* **scheme:** 代表访问的协议，一般为 http 或者 https 以及 FTP 等
+* **host:** 主机名，域名，比如 www.baidu.com
+* **port:** 端口号，浏览器默认使用80端口，所以一般不用写也能解析
+* **query-string:** 查询字符串，比如: www.baidu.con/s?wd=python，后面 wd=python 就是查询字符串
+* **anchor:** 锚点，前端用来做页面定位的，例如: 百度百科
+
+ 
 
 
 
