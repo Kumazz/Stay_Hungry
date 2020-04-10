@@ -34,14 +34,6 @@
   def aticles(id):
     return f'Hello Flask 的第{id}篇'
 ```
-&emsp;&emsp;构造携带 / 的 URL
-
-```python
-  @app.route('/aticles/<path:test>/')
-  def url_path(test):
-    return f'携带了 / 的路径'
-
-```
 &emsp;&emsp; 构造指定多种路径,item()可以接收两个 URL，一定要传 url_path 参数，url_path名称任取
 
 ```python
@@ -64,6 +56,15 @@
   def u(id):
     return f'uuid是{id}'
 ```
+&emsp;&emsp;构造携带 / 的 URL
+
+```python
+  @app.route('/aticles/<path:test>/')
+  def url_path(test):
+    return f'携带了 / 的路径'
+
+```
+
 ### URL 末尾的斜杠
 &emsp;&emsp; URL 的末尾有没有斜杠是两个不同的 URL，推荐设置时末尾带斜杠
 
@@ -74,16 +75,11 @@
     return '用户中心'
     
   # 设置末尾不带斜杠的 URL: /user，访问时写成 /user/，页面会抛出 404 错误
-  @app.route('/user/')
+  @app.route('/user')
   def user():
     return '用户中心'
 
 ```
-
-
-
-
-
 
 ### 构造 URL ( url_for )
 &emsp;&emsp; url_for函数可以通过函数获取 URL，解决修改一处 URL 对应的函数名，不用导出去替换 URL，同时该函数会转义一些特殊字符和 unicode 字符串
@@ -102,6 +98,18 @@
     return url_for('article',id=1)
     
 ```
+### 指定 HTTP 方法
+&emsp;&emsp; 在@app.route()中传入关键字参数 methods 来指定 HTTP 方法，默认使用 GET 请求
+
+
+```python
+  @app.route('/',methods=['GET','POST'])
+
+```
+
+
+
+
 
 
 
