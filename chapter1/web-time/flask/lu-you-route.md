@@ -107,7 +107,7 @@
 
 ```
 ### 重定向
-&emsp;&emsp; 通过 flask.redirect(location,code=302)这个函数来实现重定向，默认 302 即 暂时性重定向，可以修改code=301实现永久重定向
+&emsp;&emsp; 通过 flask.redirect(location,code=302)这个函数来实现重定向，location 表示需要重定向的 URL( 配合url_for )，默认 302 即 暂时性重定向，可以修改code=301实现永久重定向
 ```python
   from flask import Flask,url_for,redirect
   app = Flask(__name__)
