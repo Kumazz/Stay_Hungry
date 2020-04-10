@@ -24,29 +24,43 @@
 
 
 ```python
-  # 语法如下，尖括号是固定写法，variable 默认数据类型是【字符串】，可以通过 converter即类型名称来制定类型
+  # 尖括号是固定写法，通过 converter即类型名称来制定类型,variable 默认数据类型是【字符串】
   @app.route('/< converter:variable >/')
-  
-  # 构造整型 id 的 aticles URL，同时可以构造浮点型
+```
+&emsp;&emsp; 构造整型 id 的 aticles URL，同时可以构造浮点型
+
+```python
   @app.route('/aticles/<int:id>')
   def aticles(id):
     return f'Hello Flask 的第{id}篇'
-    
-  # 构造携带 / 的 URL
+```
+&emsp;&emsp; 构造整型 id 的 aticles URL，同时可以构造浮点型
+
+构造携带 / 的 URL
   @app.route('/aticles/<path:test>/')
   def url_path(test):
     return f'携带了 / 的路径'
   
-  # 构造指定多种路径,item()可以接收两个 URL，一定要传 url_path 参数，url_path名称任取
+&emsp;&emsp; 构造指定多种路径,item()可以接收两个 URL，一定要传 url_path 参数，url_path名称任取
+
+```python
   @app.route('/<any(url1,url2):url_path>/')
   def item(url_path):
     return url_path
+```
+
+
+  
+    
+  # 构造传统 ?= 形式传递参数
+
+
     
   # 构造传统 ?= 形式传递参数
 
   
 
-```
+
 
 
 
