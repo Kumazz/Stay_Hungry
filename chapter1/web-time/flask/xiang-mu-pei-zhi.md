@@ -23,9 +23,23 @@
 ```
 ![](/assets/QQ20200410-104031@2x.png)
 **注意:** DEBUG 模式会有安全隐患，只适合在开发环境下开启，因为程序有异常 DEBUG 模式下会显示错误堆栈模式方便调试同时，攻击者同样能通过显示异常信息获取攻击线索
+* ### 配置文件
+&emsp;通过加载模块的方式进行配置，譬如创建个 setting.py 模块，专门存储配置项
+
+```python
+    app.config.from_pyfile('setting.py',silent=True)
+    # silent=True表示如果配置文件不存在的时候不抛出异常，默认是False，会抛出异常
+```
+
+
+
 * ### Pycharm 开启 DEBUG 模式
 ![](/assets/QQ20200410-094703@2x.png)
 **注意:** 因为 Pycharm2018 版本后，直接创建 Flask需要在编辑项目中开启 debug 模式和更改端口号
+
+
+
+
 
 
 
