@@ -56,6 +56,21 @@
   def u(id):
     return f'uuid是{id}'
 ```
+&emsp;&emsp; 构造查询字符串的方式，通过'?key=value'的形式传递
+
+```python
+ # 导入 request 类
+  from flask import request
+  
+  @app.route('/test/')
+  def test():
+    wd = request.args.get('wd')
+    return f'参数是{wd}'
+    
+  # 测试
+  http://127.0.0.1:5000/test/?wd=python
+```
+
 &emsp;&emsp;构造携带 / 的 URL
 
 ```python
