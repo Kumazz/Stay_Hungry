@@ -56,7 +56,7 @@
   def u(id):
     return f'uuid是{id}'
 ```
-&emsp;&emsp; 构造查询字符串的方式，通过'?key=value'的形式传递
+&emsp;&emsp; 构造查询字符串的方式，通过 ' ?key=value ' 的形式传递
 
 ```python
  # 导入 request 类
