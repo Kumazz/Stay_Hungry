@@ -13,6 +13,20 @@
 &emsp;&emsp;**Flask-Mail:** 邮件
 ### 开发文档
 &emsp;&emsp;[中文文档](https://dormousehole.readthedocs.io/en/latest/)
+### Pycharm 设置
+![](/assets/QQ20200410-093437@2x.png)
+**注意:** 用 IDEA 创建 Flask 项目就不需要再 pip install flask，已经安装了基础扩展包
+![](/assets/QQ20200410-094703@2x.png)
+**注意:** 因为 Pycharm2018 版本后，直接创建 Flask需要在编辑项目中开启 debug 模式和更改端口号
+
+
+
+
+
+
+
+
+
 
 
 
