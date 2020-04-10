@@ -27,7 +27,7 @@
 ![](/assets/QQ20200410-094703@2x.png)
 **注意:** 因为 Pycharm2018 版本后，直接创建 Flask需要在编辑项目中开启 debug 模式和更改端口号
 * ### 配置文件
-&emsp;通过加载模块的方式进行配置，譬如创建个 setting.py 模块，专门存储配置项
+&emsp;通过加载模块的方式进行配置，譬如创建个 setting.py 模块，专门存储配置项后进行加载
 
 ```python
     app.config.from_pyfile('setting.py',silent=True)
