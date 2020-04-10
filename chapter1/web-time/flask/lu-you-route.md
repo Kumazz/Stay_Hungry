@@ -50,7 +50,7 @@
     return url_path
     
   # 例如
-  @app.route('<any(blog,aticles):url>/<id>/')
+  @app.route('/<any(blog,aticle):url>/<id>/')
   def detail(url,id):
     if url == 'blog':
       return f'这是博客第{id}章'
