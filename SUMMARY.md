@@ -5,7 +5,7 @@
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [项目配置](chapter1/web-time/flask/xiang-mu-pei-zhi.md)
-      * [路由与视图](chapter1/web-time/flask/lu-you-route.md)
+      * [URL与视图](chapter1/web-time/flask/lu-you-route.md)
 * Happy Go
 * [Visit Data](visit-data.md)
   * [MySQL](visit-data/mysql.md)

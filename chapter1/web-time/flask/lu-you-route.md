@@ -1,7 +1,5 @@
-# 视图
-
-
-
+# URL 与 视图
+### URL 与 函数的映射
 ```python
   # coding:utf8
   
@@ -11,7 +9,7 @@
   # 传入 __name__ 初始化一个 Flask 实例
     app = Flask(__name__)
     
-  # app.route装饰器，映射 URL 和执行函数，如: 将根 URL 映射到了 index 函数上
+  # @app.route 装饰器，映射 URL 和执行函数，如: 将根 URL 映射到了 index 函数上
     @app.route('/')
     def index():
       return ’Hello Flask'
@@ -21,7 +19,17 @@
           app.run(port=9000,host='0.0.0.0')
   
 ```
-**注意:** app.run 只适合开发，生产环境使用 UWSGI 或 Gunicorn 来启动
+**详解:** 一个 URL 要与执行函数进行映射，使用的 @app.route 装饰器
+&emsp;&emsp; @app.route 装饰器中可以指定 URL 的规则来进行更详细的映射
+
+
+```python
+  # 语法如下，尖括号是固定写法，variable 默认数据类型是字符串，可以通过 converter即类型名称来制定类型
+  @app.route('/< converter:variable >/')
+
+```
+
+
 
 
 
