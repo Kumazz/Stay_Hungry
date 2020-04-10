@@ -106,6 +106,27 @@
   @app.route('/',methods=['GET','POST'])
 
 ```
+### 重定向
+&emsp;&emsp; 通过 flask.redirect(location,code=302)这个函数来实现重定向，默认 302 即 暂时性重定向，可以修改code=301实现永久重定向
+```python
+  from flask import Flask,url_for,redirect
+  app = Flask(__name__)
+  @app.route('/login/',methods=['GET','POST'])
+  def login():
+    return '注册页面'
+    
+  @app.route('/unname/')
+  def unname():
+    name = request.args.get('name')
+    if not name:
+      return redirect(url_for('login'))
+    else:
+      return name
+
+```
+
+
+
 
 
 
