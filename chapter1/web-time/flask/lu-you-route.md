@@ -64,6 +64,27 @@
   def u(id):
     return f'uuid是{id}'
 ```
+### URL 末尾的斜杠
+&emsp;&emsp; URL 的末尾有没有斜杠是两个不同的 URL，推荐设置时末尾带斜杠
+
+```python
+  # 设置末尾带斜杠的 URL: /user/，如果访问时写成 /user，页面会自动补全后面斜杠
+  @app.route('/user/')
+  def user():
+    return '用户中心'
+    
+  # 设置末尾不带斜杠的 URL: /user，访问时写成 /user/，页面会抛出 404 错误
+  @app.route('/user/')
+  def user():
+    return '用户中心'
+
+```
+
+
+
+
+
+
 ### 构造 URL ( url_for )
 &emsp;&emsp; url_for函数可以通过函数获取 URL，解决修改一处 URL 对应的函数名，不用导出去替换 URL，同时该函数会转义一些特殊字符和 unicode 字符串
 
