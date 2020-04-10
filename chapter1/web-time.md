@@ -16,6 +16,15 @@
 &emsp;&emsp;**HTTP:** 基于TCP/IP的一种超文本传输协议，所有 WWW 文件都必须遵循该协议
 &emsp;&emsp;**HTTPS:** 在 HTTP 基础上加入了 SSL 协议，通过通信加密和身份验证保证数据传输安全
 &emsp;&emsp;**常见请求方法:** 
+### URL 详解
+&emsp;&emsp;**URL:**  统一资源定位符
+```html
+    
+
+```
+
+
+
 
 
 

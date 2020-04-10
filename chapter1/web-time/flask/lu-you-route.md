@@ -37,7 +37,7 @@
   def item(url_path):
     return url_path
     
-  # 构造指定多种路径,item()可以接收两个 URL，一定要传 url_path 参数，url_path名称任取
+  # 构造传统 ?= 形式传递参数
 
   
 
