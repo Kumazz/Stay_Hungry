@@ -11,7 +11,7 @@
 &emsp;&emsp;**数据库开发基础:** MySQL、MSSQL、PostgreSQL、Redis、MongoDB
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 中间件: ORM
 &emsp;&emsp;**安全开发基础:** 服务器安全、数据库安全、代码安全开发
-&emsp;&emsp;**网站架构:** MVC、MVVM、MVP
+&emsp;&emsp;**网站设计模式:** MVC、MVVM、MVP
 ### HTTP 与 HTTPS
 &emsp;&emsp;**HTTP:** 基于TCP/IP的一种超文本传输协议，所有 WWW 文件都必须遵循该协议
 &emsp;&emsp;**HTTPS:** 在 HTTP 基础上加入了 SSL 协议，通过通信加密和身份验证保证数据传输安全
