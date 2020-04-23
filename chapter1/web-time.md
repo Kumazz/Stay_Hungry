@@ -12,6 +12,8 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 中间件: ORM
 &emsp;&emsp;**安全开发基础:** 服务器安全、数据库安全、代码安全开发
 &emsp;&emsp;**网站设计模式:** MVC、MVVM、MVP
+&emsp;&emsp;**初识MVC模式:** 核心在于分层，**V** 指 View 前端视图，**C **指 Controller 用于调度，**M** 指 Model 模型，例如 DB 表作为模型
+![](/assets/22C6E500FDE45F2A8A33D98E3B443858.png)
 ### HTTP 与 HTTPS
 &emsp;&emsp;**HTTP:** 基于TCP/IP的一种超文本传输协议，所有 WWW 文件都必须遵循该协议
 &emsp;&emsp;**HTTPS:** 在 HTTP 基础上加入了 SSL 协议，通过通信加密和身份验证保证数据传输安全
