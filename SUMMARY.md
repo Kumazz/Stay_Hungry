@@ -4,6 +4,7 @@
 * [Short Python](chapter1.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
+      * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
       * [项目配置](chapter1/web-time/flask/xiang-mu-pei-zhi.md)
       * [URL与视图](chapter1/web-time/flask/lu-you-route.md)
 * Happy Go
