@@ -7,17 +7,30 @@
 &emsp;&emsp;目前最流行的 Python 虚拟环境配置工具，支持 Python2 和 Python3 并且可以为每个虚拟环境指定 Python 解释器，并选择不继承基础版本的包
 * ### pipenv
 &emsp;&emsp;
+
+
+```python
+    pip install pipenv                # 安装 pipenv
+    pipenv --version                  # 查看版本
+    
+    pipenv --python3                  # 初始化
+    pipenv install flask              # 在虚拟环境下安装包，会生成Pipfile
+    pipenv shell                      # 进入执行目录
+    pipenv --vene                     # 查看绑定的虚拟环境
+    pipenv graph                      # 查看依赖包
+    exit                              # 退出
+    
+    pipenv install --dev [Packgename]  # 开发使用
+
+```
+
+
 * ### virtualenvwrapper
 &emsp;&emsp;封装 virtualenv 便于管理，不支持 windows ，有 virtualenvwrapper-win 针对 win 平台使用
 * ### venv
 &emsp;&emsp;从 Python3.3 开始自带虚拟环境 venv ，不支持 Python2
 * ### pyenv
 &emsp;&emsp;不同版本 Python 可以在系统上共存
-
-
-
-
-
 &emsp;**一般使用 virtualenv ，如果确定了项目没有 Python2 ，推荐使用 pipenv**
 ### 安装 virtualenv
 * ### windows 环境
