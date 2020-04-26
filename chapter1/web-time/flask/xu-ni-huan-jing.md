@@ -38,6 +38,17 @@
 ```bash
     
 ```
+### 保存复制虚拟环境
+
+
+```python
+    pip freeze > requirments.txt      # 保存虚拟机环境( 当前目录 )
+    pip install -r requirments.text   # 复制虚拟环境
+
+```
+
+
+
 
 
 
