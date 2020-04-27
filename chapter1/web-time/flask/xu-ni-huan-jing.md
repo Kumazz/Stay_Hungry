@@ -4,26 +4,25 @@
 ![](/assets/6A81D24BFACC32CB47B53648B67CC794.png)
 ### 虚拟环境工具
 * ### virtualenv
-&emsp;&emsp;目前最流行的 Python 虚拟环境配置工具，支持 Python2 和 Python3 并且可以为每个虚拟环境指定 Python 解释器，并选择不继承基础版本的包
+&emsp;&emsp;目前最流行的 Python 虚拟环境配置工具，支持 Python2 和 Python3 并且可以为每个虚拟环境指定 Python 解释器，并选择不继承基础版本的包，缺点在于需要单独安装第三方库，无法自动记录三方依赖
 * ### Pipenv
-&emsp;&emsp;基于项目的虚拟环境管理
+&emsp;&emsp;基于项目的虚拟环境管理工具，封装了 pip + virtualenv 功能，自动创建环境安装第三方库的同时自动记录项目依赖的所有三方库，使用 Pipfile 和 Pipfile.lock 取代 requirements.txt
 
 
 ```python
-    pip install pipenv                # 安装 pipenv
-    pipenv --version                  # 查看版本
+    pip install pipenv                     # 安装 pipenv
+    pipenv --version                       # 查看版本
+    pipenv --help                          # 查看帮助
     
-    pipenv --python3                  # 初始化
-    pipenv install flask              # 在虚拟环境下安装包，会生成Pipfile
-    pipenv shell                      # 进入执行目录
-    pipenv --vene                     # 查看绑定的虚拟环境
-    pipenv graph                      # 查看依赖包
-    exit                              # 退出
+    pipenv --three/two                     # 创建基于 python3/2 虚拟环境
     
-    pipenv install --dev [Packgename]  # 开发使用
-
+    pipenv --where                         # 查看项目位置
+    pipenv --venv                          # 查看虚拟环境位置
+    pipenv --py                            # 查看解释器信息
+    
+    pipenv shell                           # 激活虚拟环境
+    
 ```
-
 
 * ### virtualenvwrapper
 &emsp;&emsp;集中式虚拟环境管理，封装 virtualenv 便于管理，不支持 windows ，有 virtualenvwrapper-win 针对 win 平台使用
