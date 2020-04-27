@@ -5,8 +5,8 @@
 ### 虚拟环境工具
 * ### virtualenv
 &emsp;&emsp;目前最流行的 Python 虚拟环境配置工具，支持 Python2 和 Python3 并且可以为每个虚拟环境指定 Python 解释器，并选择不继承基础版本的包
-* ### pipenv
-&emsp;&emsp;
+* ### Pipenv
+&emsp;&emsp;基于项目的虚拟环境管理
 
 
 ```python
@@ -26,7 +26,7 @@
 
 
 * ### virtualenvwrapper
-&emsp;&emsp;封装 virtualenv 便于管理，不支持 windows ，有 virtualenvwrapper-win 针对 win 平台使用
+&emsp;&emsp;集中式虚拟环境管理，封装 virtualenv 便于管理，不支持 windows ，有 virtualenvwrapper-win 针对 win 平台使用
 * ### venv
 &emsp;&emsp;从 Python3.3 开始自带虚拟环境 venv ，不支持 Python2
 * ### pyenv
