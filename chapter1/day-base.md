@@ -1,5 +1,5 @@
 # Day Base
-### 概念
+### Python
 * **Python 2:** 已于 2020 年 1 月 1 日停止 Python 2 的技术支持
 * **Python 3:** Python主流版本，性能更加丰富完善，本学习文档基于 Python 3.9.x
 
