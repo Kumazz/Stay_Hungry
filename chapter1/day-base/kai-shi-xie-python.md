@@ -13,6 +13,10 @@
     print('Hello Python')
 
 ```
+&emsp;&emsp;运行方法: 文件打开状态 -- 空白位置 — 右键 -- Run -- 即可调出Pycharm的控制台输出程序结果
+&emsp;&emsp;运行快捷键:
+*  MAC: Ctrl + Shift + R，运行文件
 
+*  WIN: Ctrl + Shift + F10，运行文件
 
 
