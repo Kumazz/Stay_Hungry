@@ -4,5 +4,15 @@
 ![](/assets/QQ20200722-164126@2x.png)
 
 ### 创建文件
-&emsp;&emsp;目右键 -- [New] -- [Python File] -- 输入文件名 -- [OK]
+&emsp;&emsp;右键 -- [New] -- [Python File] -- 输入文件名 -- [OK]
 ![](/assets/QQ20200722-170505@2x.png)
+
+### 运行文件
+&emsp;&emsp;代码如下: 
+```python
+    print('Hello Python')
+
+```
+
+
+
