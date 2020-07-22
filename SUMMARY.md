@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Short Python](chapter1.md)
+  * [Day Base](chapter1/day-base.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
