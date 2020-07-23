@@ -63,13 +63,13 @@
 ```
 
 
-*  数值: int（整型）、float（浮点型）
+*  数值: int（整型）、float（浮点型），如: 1，1.5
 *  布尔型: True（真）、False（假）
-*  字符串: str
-*  列表: list
-*  元组: tuple
-*  集合: set
-*  字典: dict
+*  字符串: str，如: 'Python'
+*  列表: list，如: [1,1.5,'python']，list(1,1.5,'python')
+*  元组: tuple，如: (1,1.5,'python')，tuple(1,1.5,'python')
+*  集合: set，如: (1,1.5)
+*  字典: dict，如: {'name':'tom',age:12}
 
 
    
