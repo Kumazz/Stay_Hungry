@@ -1,4 +1,4 @@
-# Bug与输入、输出
+# Bug与输入(出)、转义结束符
 ### Bug
 &emsp;&emsp; bug指程序运行时出现错误，debug指调试bug纠正错误
 *  常规排查方法: 通过IDE报错查看报错类型排查
@@ -56,7 +56,7 @@
 &emsp;&emsp; 输入: 用户输入给计算机
 
 *  输出，print()
-   *  旧式格式符号输出，已经不再使用，但需要了解，[点击查看](https://www.jianshu.com/p/617cc100b1bf)，代码如下:
+   *  旧式格式符号输出，不推荐使用，但需要了解，[点击查看](https://www.jianshu.com/p/617cc100b1bf)，代码如下:
    ```python
       weight = 72.3
       id = 1
@@ -75,10 +75,56 @@
       print('我明年%d岁了，体重还是%.1f公斤'%(age + 1,weight))
    ```
    
-   *  format格式化输出，Python3.8 之前的格式化输出写法，代码如下:
+   *  format 格式化输出，Python3.6 之前的格式化输出写法，代码如下:
    ```python
       
    ```
+   
+   *  f 格式化输出，Python3.6 新增写法，代码如下:
+   ```python
+      print(f '我的学号是{id}' )
+   ```
+
+
+### 转义与结束符
+*  结束符: end=' ':
+
+
+```python
+   # print()默认结束是 \n(换行)，可以自定义结束符
+   print('hello'，end='\n')
+   
+   print('python',end=',')
+
+```
+
+*  常用转义符:
+   *  \n: 换行
+   *  \t: 制表符，一个 tab 键( 4 个空格)的距离
+   
+   ```python
+      # print()默认结束符是 \n （换行），代码如下:
+      print('hello')
+      print('python')
+      ---------------------------------------
+      >>> hello
+      >>> python
+      
+      # 利用换行符进行换行，代码如下:
+      print('hello\npython')
+      -------------------------------------
+      >>> hello
+      >>> python
+
+   ```
+
+
+   
+
+
+
+
+
 
 
 

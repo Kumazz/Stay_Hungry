@@ -5,7 +5,7 @@
   * [Day Base](chapter1/day-base.md)
     * [开始写Python](chapter1/day-base/kai-shi-xie-python.md)
     * [注释与变量、数据类型](chapter1/day-base/zhu-shi-yu-bian-liang.md)
-    * [Bug与输入、输出](chapter1/day-base/debug.md)
+    * [Bug与输入\(出\)、转义结束符](chapter1/day-base/debug.md)
     * [数据类型](chapter1/day-base/shu-ju-lei-xing.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
