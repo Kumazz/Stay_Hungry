@@ -46,8 +46,9 @@
        
 
 ### Debug
-&emsp;&emsp; Pycharm 集成了调试程序的 Debug 工具，通过打断点的方式进行调试
-*  常规排查方法: 通过IDE报错查看报错类型排查
+&emsp;&emsp; Pycharm 集成了调试程序的 Debug 工具
+*  断点调试方法: 在要调试的代码第一行与代码行号位置**单击**后形成红色标注即打上断点，运行 Debug 调试，快捷键: Ctrl + Shift + D
+![](/assets/QQ20200723-132551@2x.png)
 
 
        
