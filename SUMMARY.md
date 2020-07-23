@@ -4,6 +4,7 @@
 * [Short Python](chapter1.md)
   * [Day Base](chapter1/day-base.md)
     * [开始写Python](chapter1/day-base/kai-shi-xie-python.md)
+    * [注释与变量](chapter1/day-base/zhu-shi-yu-bian-liang.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
