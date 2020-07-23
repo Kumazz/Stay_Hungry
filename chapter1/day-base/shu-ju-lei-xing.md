@@ -6,6 +6,9 @@
 ```python
     myName = 'tom'
     print(type(myName))
+    
+    # 输出 myName 的数据类型
+    <class 'int'>
 ```
 
 

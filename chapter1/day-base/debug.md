@@ -1,5 +1,5 @@
-# Debug
-### 认识bug
+# Bug与输入、输出
+### Bug
 &emsp;&emsp; bug指程序运行时出现错误，debug指调试bug纠正错误
 *  常规排查方法: 通过IDE报错查看报错类型排查
 ![](/assets/QQ20200723-114051@2x.png)
