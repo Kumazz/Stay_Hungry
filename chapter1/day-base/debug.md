@@ -3,6 +3,8 @@
 &emsp;&emsp; bug指程序运行时出现错误，debug指调试bug纠正错误
 *  常规排查方法: 通过IDE报错查看报错类型排查
 ![](/assets/QQ20200723-114051@2x.png)
+
+
     *  SyntaxError: 语法错误，代码不符合 Python 的语法规范 
        *  invalid character in identifier: 有无效标识符，检查一下中英文符号
        *  unexpected EOF while parsing: 无法解析的符号，检查一下是否多了或者少了括号
@@ -41,6 +43,13 @@
     
     * UnicodeDecodeError: 编、解码错误
        * UnicodeDecodeError/UnicodeEncodeError/UnicodeTranslateError: 解码/编码/转换时的错误
+       
+
+### Debug
+&emsp;&emsp; Pycharm 集成了调试程序的 Debug 工具，通过打断点的方式进行调试
+*  常规排查方法: 通过IDE报错查看报错类型排查
+
+
        
     
     
