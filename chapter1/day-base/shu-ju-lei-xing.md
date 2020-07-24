@@ -45,7 +45,8 @@
    print(list(t1)) 
    print(type(list(t1)))
    
-   # 5. eval() -- 将字符串串中的数据转换成Python表达式原本类型 str1 = '10'
+   # 5. eval() -- 将字符串串中的数据转换成Python表达式原本类型 
+   str1 = '10'
    str2 = '[1, 2, 3]'
    str3 = '(1000, 2000, 3000)'
    print(type(eval(str1)))
