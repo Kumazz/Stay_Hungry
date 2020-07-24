@@ -26,12 +26,13 @@
 
 
 ```python
-   # 1. float() -- 转换成浮点型 
+   # 1. float() -- 转换成浮点数，字符串转换时中不可以包含非数字字符，比如空字符串、字母都不可以转换为浮点数
+
    num1 = 1 
    print(float(num1)) 
    print(type(float(num1)))
    
-   # 2. str() -- 转换成字符串串类型 
+   # 2. str() -- 转换成字符串串类型
    num2 = 10 
    print(type(str(num2)))
    
