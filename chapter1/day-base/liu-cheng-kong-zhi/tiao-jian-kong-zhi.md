@@ -62,9 +62,27 @@
 
 ```python
     import random      # 导入 random 模块
-    random.randint(a,b)   # 调用随机 整数 方法, a 和 b 为区间范围，包括b
+    random.randint(开始,结束)   # 调用随机 整数 方法, 开始 和 结束 为值区间范围，包括开始和结束
 
 ```
+
+### 三目运算符
+&emsp;&emsp; 又叫三元运算符或三元表达式，主要作用是优化条件控制的代码量
+&emsp;&emsp; 条件成立执行的表达式 **if** 条件 **else** 条件不成立表达式，仅限该简单语句
+
+```python
+   # 先看 if 左边写成立语句，else 后写不成立语句，具体写法如下(拆分写便于观看)
+   
+   a = 1
+   b = 2
+   
+   if a > b      # 先写 if 条件
+   a if a > b    # 将成立条件的结果写在 if 左边
+   a if a > b else b    # 再将不成立的结果写在 else 后面
+```
+
+
+
 
 
 
