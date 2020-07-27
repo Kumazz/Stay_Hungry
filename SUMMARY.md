@@ -11,7 +11,7 @@
       * [运算符](chapter1/day-base/kai-shi-xie-python/yun-suan-fu.md)
     * [流程控制](chapter1/day-base/liu-cheng-kong-zhi.md)
       * [条件控制](chapter1/day-base/liu-cheng-kong-zhi/tiao-jian-kong-zhi.md)
-      * 循环控制
+      * [循环控制](chapter1/day-base/liu-cheng-kong-zhi/xun-huan-kong-zhi.md)
     * [数据类型](chapter1/day-base/shu-ju-lei-xing.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
