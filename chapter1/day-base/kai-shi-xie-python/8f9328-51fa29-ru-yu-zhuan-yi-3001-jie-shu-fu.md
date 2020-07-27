@@ -23,7 +23,7 @@
       print('我明年%d岁了，体重还是%.1f公斤'%(age + 1,weight))
    ```
    
-   *  .format()格式化输出，Python3.6 之前的格式化输出写法，即将落伍，代码如下:
+   *  str.format() 即 .format() 格式化输出，Python3.6 之前的格式化输出写法，即将落伍，代码如下:
    
    ```python
       weight = 72.3
@@ -32,7 +32,7 @@
       
    ```
    
-   *  f'{表达式}' 格式化输出，Python3.6 新增写法，代码如下:
+   *  f-string 即 f'{表达式}' 格式化输出，Python3.6 新增写法，代码如下:
    
    ```python
       print(f '我的学号是{id}' )
