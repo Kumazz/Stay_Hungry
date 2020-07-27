@@ -23,7 +23,7 @@
       print('我明年%d岁了，体重还是%.1f公斤'%(age + 1,weight))
    ```
    
-   *  .format()格式化输出，Python3.6 之前的格式化输出写法，代码如下:
+   *  .format()格式化输出，Python3.6 之前的格式化输出写法，即将落伍，代码如下:
    
    ```python
       weight = 72.3
