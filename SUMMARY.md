@@ -10,6 +10,9 @@
       * [转义、元字符与结束符](chapter1/day-base/kai-shi-xie-python/zhuan-yi-3001-yuan-zi-fu-yu-jie-shu-fu.md)
       * [运算符](chapter1/day-base/kai-shi-xie-python/yun-suan-fu.md)
     * [数据类型](chapter1/day-base/shu-ju-lei-xing.md)
+    * [流程控制](chapter1/day-base/liu-cheng-kong-zhi.md)
+      * 条件控制
+      * 循环控制
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
