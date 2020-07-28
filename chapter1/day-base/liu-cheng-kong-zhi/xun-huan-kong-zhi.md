@@ -82,8 +82,7 @@
 ```
 
 
-*  continue，满足条件后**退出当前循环后面的循环不执行**，通过修改计数器进行循环否则进入死循环
-
+*  continue，满足条件后**退出当前循环继而执行下一句代码**，但是要在** contine 前修改计数器**进行循环否则进入死循环
 
 
 ```python
@@ -99,10 +98,32 @@
 ```
 
 
-
-
 ### 拓展 -- while...else、for...else退出
-*  while.....
+*  while...else 与 break
+
+```python
+    # break后面的代码一律不运行，包括else
+    
+    while 条件1:
+        条件1成立执行的代码
+        break
+    else:
+        条件2成立执行的代码
+
+```
+
+*  while...else 与 continue
+
+
+
+```python
+
+```
+
+
+
+
+
 
 
 
