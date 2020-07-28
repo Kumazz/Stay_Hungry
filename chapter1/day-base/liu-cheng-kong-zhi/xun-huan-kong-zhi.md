@@ -117,6 +117,16 @@
 
 
 ```python
+    # continue 后面的代码会被执行，包括else，但是注意在 continue 前改变计数器避免死循环
+    
+    while 条件1:
+        条件1成立执行的代码
+        计数器修改
+        continue
+    else:
+        条件2成立执行的代码
+
+
 
 ```
 
