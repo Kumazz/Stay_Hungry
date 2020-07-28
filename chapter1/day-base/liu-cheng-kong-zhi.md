@@ -6,7 +6,7 @@
 *  三元运算符
 
 ### 循环控制
-&emsp;&emsp; 通过限定条件**重复执行**就是循环控制，在编程中叫循环语句，在 Python 中，循环分为 while 和 for 两种
+&emsp;&emsp; 通过限定条件**重复执行**就是循环控制，在编程中叫循环语句，在 Python 中，循环分为 while 和 for 两种，让代码高效的重复执行
 *  while 和 while...else
 *  循环嵌套
 *  break 和 continue
