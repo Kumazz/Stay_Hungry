@@ -13,6 +13,7 @@
       * [条件控制](chapter1/day-base/liu-cheng-kong-zhi/tiao-jian-kong-zhi.md)
       * [循环控制](chapter1/day-base/liu-cheng-kong-zhi/xun-huan-kong-zhi.md)
     * [数据类型](chapter1/day-base/shu-ju-lei-xing.md)
+      * [字符串](chapter1/day-base/shu-ju-lei-xing/zi-fu-chuan.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
