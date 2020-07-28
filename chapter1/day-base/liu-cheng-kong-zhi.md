@@ -10,7 +10,7 @@
 *  while 和 while...else
 *  循环嵌套
 *  break 和 continue
-*  for
+*  for...in
 
 
 
