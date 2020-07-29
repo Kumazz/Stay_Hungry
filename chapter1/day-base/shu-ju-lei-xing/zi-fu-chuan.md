@@ -120,8 +120,8 @@
   *  split 返回是列表，会丢失分隔字符
 
 
-* 字符或子串**.join**( 多字符串组成的子列 )
-
+* 字符或子串**.join**( 多字符串组成的子列 )，用一个字符或子串合并字符串
+  * 返回新的字符串
 
 
 ```python
@@ -129,6 +129,36 @@
     new_str = '...'.join(mylist)
 
 ```
+
+* 其他修改函数
+
+
+```python
+    mystr = 'hello python and worlf'
+    
+    # 将字符串第一个字符转换成大写，其他依旧小写
+    print(mystr.captilize())
+    
+    # 将字符串每个首字母大写
+    print(mystr.title())
+    
+    # 将字符串中小写转大写
+    print(mystr.upper())
+    
+    # 建字符串中大写转小写
+    print(mystr.lower())
+   
+    # 删除字符串左、右、两边空白字符
+    print(mytstr.lstrip/rstrip/strip() )
+    
+    # 左、中、右对齐
+    print(mystr.ljust/rjust/center(,填充字符))
+    
+```
+
+#### 判断，判断真假，返回的结果是布尔型数据类型
+
+*  字符串序列**.startswith**( 子串，开始位置下标，结束位置下标 )
 
 
 
