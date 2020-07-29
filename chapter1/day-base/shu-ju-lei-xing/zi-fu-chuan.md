@@ -152,7 +152,7 @@
     print(mytstr.lstrip/rstrip/strip() )
     
     # 左、中、右对齐
-    print(mystr.ljust/rjust/center(,填充字符))
+    print(mystr.ljust/rjust/center(长度,填充字符))
     
 ```
 
