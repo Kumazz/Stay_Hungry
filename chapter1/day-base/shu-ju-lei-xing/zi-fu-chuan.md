@@ -120,6 +120,17 @@
   *  split 返回是列表，会丢失分隔字符
 
 
+* 字符或子串**.join**( 多字符串组成的子列 )
+
+
+
+```python
+    mylist = ['aa', 'bb', 'cc']
+    new_str = '...'.join(mylist)
+
+```
+
+
 
 
 
