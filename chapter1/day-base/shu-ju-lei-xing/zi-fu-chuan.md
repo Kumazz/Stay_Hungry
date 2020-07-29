@@ -1,5 +1,6 @@
 # 字符串
 ### 认识字符串
+&emsp;&emsp;**不可变数据类型**
 &emsp;&emsp;字符串是 Python 中最常用的数据类型，用**引号(单引号、双引号、三引号)**来创建字符串并且赋值给一个变量
 &emsp;&emsp;如: a = 'hello'，a = "python"，a = '''world'''、a = """python"""
 
@@ -110,8 +111,8 @@
 
 ```
     mystr = 'hello world and my baby'
-    print(mystr.replace('o','a',1))      # 指定次数替换
-
+    new_str = mystr.replace('o','a',1))      # 指定次数替换
+    print(new_str)
 ```
 
 * 字符串序列**.split**(旧子串,新子串,替换次数)
