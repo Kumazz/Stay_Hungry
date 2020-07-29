@@ -145,7 +145,7 @@
     # 将字符串中小写转大写
     print(mystr.upper())
     
-    # 建字符串中大写转小写
+    # 将字符串中大写转小写
     print(mystr.lower())
    
     # 删除字符串左、右、两边空白字符
@@ -165,6 +165,27 @@
 *  字符串序列**.endswith**( 子串，开始位置下标，结束位置下标 )
   *  开始和结束位置下标可以省略，表示在整个字符串序列中查找
   *  检查字符串以以指定子串结尾，是则返回 True，否则返回False
+
+* 其他修改函数
+
+
+```python
+    mystr = 'hello python and worlf'
+    
+    # 判断字符串是不是字母组成，注意空格
+    print(mystr.isalpha())
+    
+    # 判断字符串是不是数字组成，注意空格
+    print(mystr.isdigit())
+    
+    # 判断字符串是不是数字、字母、空格组成
+    print(mystr.isalnum())
+    
+    # 判断字符串是不是由空格(白)组成
+    print(mystr.isspace())
+ 
+    
+```
 
 
 
