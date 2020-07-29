@@ -5,7 +5,8 @@
 *  输出，print()
    *  旧式格式符号输出，不推荐使用，但需要了解，[点击查看](https://www.jianshu.com/p/617cc100b1bf)，代码如下:
    
-   ```python
+   
+```python
       weight = 72.3
       id = 1
       
@@ -21,9 +22,10 @@
       
       # print()括号内可以进行计算，多个输出用括号包裹，逗号隔开输出内容
       print('我明年%d岁了，体重还是%.1f公斤'%(age + 1,weight))
-   ```
+```
    
    *  str.format() 即 .format() 格式化输出，Python3.6 之前的格式化输出写法，即将落伍，代码如下:
+   
    
    ```python
       weight = 72.3
@@ -33,6 +35,7 @@
    ```
    
    *  f-string 即 f'{表达式}' 格式化输出，Python3.6 新增写法，代码如下:
+   
    
    ```python
       print(f '我的学号是{id}' )
