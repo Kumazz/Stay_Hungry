@@ -51,16 +51,23 @@
 * 列表序列**.append**( 数据 )
   *  列表结尾追加数据
   *  追加的数据是一个序列，则追加**整个序列**到列表
-
-```
-    mystr = 'hello world and my baby'
-    new_str = mystr.replace('o','a',1))      # 指定次数替换
-    print(new_str)
-```
+  
 
 * 列表序列**.extend**( 数据 )
-  *  列表结尾追加数据
+  *  列表结尾追加数据(数据会被拆分)
   *  追加的数据是一个序列，则将这个序列的数据**逐一添加**到列表
+
+
+
+```python
+    name_list = ['tom','jerry','add']
+    print(name_list.extend('hehe'))
+    ------------------------------------
+    >>> ['tom','jerry','add','h','e','h','e']
+
+```
+
+
 
 
 * 列表序列**.insert**( 位置下标，数据 )
