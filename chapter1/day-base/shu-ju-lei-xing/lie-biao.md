@@ -70,39 +70,23 @@
 
 * 列表序列**.insert**( 位置下标，数据 )
   * 指定位置新增数据
+  
 
+* 列表序列**.remove**( 数据 )
+  * 移除列表数据中第一个匹配项
 
-```python
-    mylist = ['aa', 'bb', 'cc']
-    new_str = '...'.join(mylist)
+* 列表序列**.clear**( 数据 )
+  * 保留空列表
 
-```
+* 删除列表 -- del或del()
+  * del 目标 或 del(目标)
+  * del 列表[index]，可以删除指定下标数据
+  
+* 删除列表 -- pop(index)
+  * 默认删除最后一个数据
+  * 指定删除下标的数据
+  * 返回被删除的数据
 
-* 其他修改函数
-
-
-```python
-    mystr = 'hello python and worlf'
-    
-    # 将字符串第一个字符转换成大写，其他依旧小写
-    print(mystr.captilize())
-    
-    # 将字符串每个首字母大写
-    print(mystr.title())
-    
-    # 将字符串中小写转大写
-    print(mystr.upper())
-    
-    # 将字符串中大写转小写
-    print(mystr.lower())
-   
-    # 删除字符串左、右、两边空白字符
-    print(mytstr.lstrip/rstrip/strip() )
-    
-    # 左、中、右对齐
-    print(mystr.ljust/rjust/center(长度,填充字符))
-    
-```
 
 #### 判断，判断真假，返回的结果是布尔型数据类型
 
