@@ -136,6 +136,24 @@
 
 ```
 
+* for
+
+```python
+    for i in name_list:
+      print(i)
+
+```
+
+
+#### 列表嵌套
+&emsp;&emsp;一个列表里面包含了其他的子列表
+
+
+
+
+
+
+
 
 
 
