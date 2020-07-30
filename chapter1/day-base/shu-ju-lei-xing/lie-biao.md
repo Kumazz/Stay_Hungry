@@ -127,7 +127,6 @@
 * while
 
 
-
 ```python
     name_list = ['tom','lily','rose']
     i = 0
