@@ -15,6 +15,7 @@
     * [数据类型](chapter1/day-base/shu-ju-lei-xing.md)
       * [字符串](chapter1/day-base/shu-ju-lei-xing/zi-fu-chuan.md)
       * [列表](chapter1/day-base/shu-ju-lei-xing/lie-biao.md)
+      * [元组](chapter1/day-base/shu-ju-lei-xing/yuan-zu.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
