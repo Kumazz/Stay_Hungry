@@ -108,25 +108,6 @@
   *  检查指定数据在数据序列中，不在则返回 True，否则返回False
 
 
-* 其他判断函数
-
-
-```python
-    mystr = 'hello python and worlf'
-    
-    # 判断字符串是不是字母组成，注意空格
-    print(mystr.isalpha())
-    
-    # 判断字符串是不是数字组成，注意空格
-    print(mystr.isdigit())
-    
-    # 判断字符串是不是数字、字母、空格组成
-    print(mystr.isalnum())
-    
-    # 判断字符串是不是由空格(白)组成
-    print(mystr.isspace())
-    
-```
 
 
 
