@@ -38,7 +38,7 @@
     # 查找内存位置
     print(id(str))
     
-    # 查找字符串位置
+    # 查找字符串下标位置
     a = 'hellopython'
     print(a[1])
 
