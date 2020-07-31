@@ -17,6 +17,7 @@
       * [列表](chapter1/day-base/shu-ju-lei-xing/lie-biao.md)
       * [元组](chapter1/day-base/shu-ju-lei-xing/yuan-zu.md)
       * [字典](chapter1/day-base/shu-ju-lei-xing/zi-dian.md)
+      * [集合](chapter1/day-base/shu-ju-lei-xing/ji-he.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
