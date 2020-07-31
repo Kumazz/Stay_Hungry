@@ -57,6 +57,28 @@
 #### 循环遍历
 * 遍历字典的 key
   * for key in 字典序列.keys()
+  
+  
+* 遍历字典的 value
+  * for value in 字典序列.values()
+  
+* 遍历字典的元素( key 和 value )，返回元组
+  * for item in 字典序列.items()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
