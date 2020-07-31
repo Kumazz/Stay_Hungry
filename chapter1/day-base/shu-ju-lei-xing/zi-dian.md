@@ -64,6 +64,10 @@
   
 * 遍历字典的元素( key 和 value )，返回元组
   * for item in 字典序列.items()
+  
+* 遍历字典的的键值对，即 拆包
+  * for key,value in 字典序列.items()
+
 
 
 
