@@ -6,13 +6,10 @@
 
 ### 推导式案例
 
-
-
 ```python
-   list1 = [i for i in range(10)]
-   print(list1)
-
-
+    # 简单的推导式 
+    list1 = [i for i in range(10)]
+    print(list1)
 
 
 ```
