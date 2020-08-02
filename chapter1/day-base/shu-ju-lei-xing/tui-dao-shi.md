@@ -31,7 +31,10 @@
     counts = {k : v for k, v in counts.items() if 条件}
     print(counts)
     
-    
+   
+    # 集合推导式，结果具有去重特点
+    set1 = {i ** 2 for i in range(10)}
+    print(set1) 
 ```
 
 
