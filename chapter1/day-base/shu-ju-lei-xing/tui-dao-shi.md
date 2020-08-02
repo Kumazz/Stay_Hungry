@@ -27,6 +27,10 @@
     dict1 = {list1[i]:list2[i] for i in range(len(list1))}
     print(dict1)
     
+    # 提取字典中的目标数据
+    counts = {k : v for k, v in counts.items() if 条件}
+    print(counts)
+    
     
 ```
 
