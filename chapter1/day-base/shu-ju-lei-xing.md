@@ -1,24 +1,28 @@
 # 数据类型
-### 数据类型
-&emsp;&emsp; 应对不同的业务需求，把数据分成了 7 个不同类型，使用内置函数 type() 检查数据类型，代码如下:
+### 值和类型
+* 值，值( 数据 )是程序操作的**对象**之一，比如一个字母或者数字
+
+* 类型，对值的一种划分，应对不同的业务需求
+  * Python 把值( 数据 )分成了 7 个不同类型
+  * 使用内置函数 **「 type() 」** 检查数据类型
 
 
 ```python
     myName = 'tom'
     print(type(myName))
-    
-    # 输出 myName 的数据类型
-    <class 'int'>
+    -----------------------
+    >>> <class 'int'>
 ```
-
-
-*  数值: int（整型）、float（浮点型）
-*  布尔型: True（真）、False（假）
-*  字符串: str
-*  列表: list
-*  元组: tuple
-*  集合: set
-*  字典: dict
+    
+&emsp;&emsp;&emsp;上述代码中 「 class 」这个字样表明这是一类( 型 )
+* Python 中其他数据类型如下:
+  *  数值: int（整型）、float（浮点型）
+  *  布尔型: True（真）、False（假）
+  *  字符串: str
+  *  列表: list
+  *  元组: tuple
+  *  集合: set
+  *  字典: dict
 
 
 
