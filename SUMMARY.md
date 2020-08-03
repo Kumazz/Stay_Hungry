@@ -7,7 +7,7 @@
       * [注释与变量](chapter1/day-base/kai-shi-xie-python/zhu-shi-yu-bian-liang.md)
       * [Bug与Debug](chapter1/day-base/debug.md)
       * [输出与输入](chapter1/day-base/kai-shi-xie-python/8f9328-51fa29-ru-yu-zhuan-yi-3001-jie-shu-fu.md)
-      * [转义、元字符与结束符](chapter1/day-base/kai-shi-xie-python/zhuan-yi-3001-yuan-zi-fu-yu-jie-shu-fu.md)
+      * [结束符与转义符](chapter1/day-base/kai-shi-xie-python/zhuan-yi-3001-yuan-zi-fu-yu-jie-shu-fu.md)
       * [运算符](chapter1/day-base/kai-shi-xie-python/yun-suan-fu.md)
     * [流程控制](chapter1/day-base/liu-cheng-kong-zhi.md)
       * [条件控制](chapter1/day-base/liu-cheng-kong-zhi/tiao-jian-kong-zhi.md)
