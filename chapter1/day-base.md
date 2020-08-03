@@ -3,7 +3,7 @@
 &emsp;&emsp;**Python 2:** 已于 2020 年 1 月 1 日停止 Python 2 的技术支持
 &emsp;&emsp;**Python 3:** Python 主流版本，性能更加丰富完善( 本学习文档基于 Python 3.9 以上，不影响 Py3 学习 )
 
-* **下载与安装:** https://www.python.org/downloads/ ， 在该页面下载推荐版本即可( 该页面会自动判断你的操作系统 )
+* **下载与安装:** https://www.python.org/downloads/ ，页面自动判断你的操作系统推荐下载对应 Python 安装程序 
 ![](/assets/QQ20200722-162303@2x.png)
 
 &emsp;&emsp; 双击可执行文件 — 勾选[pip] -- [Next] -- **[勾选添加环境变量]** -- [Install]，按提示操作即可
