@@ -33,6 +33,14 @@
 * **VSCode:** [点击下载](https://code.visualstudio.com/)，免费的开发编辑器，需要配合相关插件完成 Python 的相关开发，可以搜索 VSCode For Python 的视频进行补充学习
 
 ### 解释器
+&emsp;&emsp;帮助我们将 Python 代码，也就是 .py 文件，交给机器可以执行的工具，即运行文件
+*  Python解释器器种类 
+  * CPython，C 语⾔开发的解释器[官⽅]，应⽤广泛的解释器   
+  * IPython，基于 CPython  的⼀种交互式解释器
+*  其他解释器器
+  * PyPy，基于 Python 语⾔开发的解释器
+  * Jython，运⾏在Java平台的解释器，直接把 Python 代码编译成Java字节码执⾏   
+  * IronPython，运⾏在微软 .Net 平台上的 Python 解释器，把 Python 代码编译成 .Net 的字节码
 
 
 
