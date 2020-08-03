@@ -34,8 +34,7 @@
    
    
    ```python
-      weight = 72.3
-      id = 1
+   
       print('我学号是{}，今年{}岁了'.format(id,age))
       
    ```
