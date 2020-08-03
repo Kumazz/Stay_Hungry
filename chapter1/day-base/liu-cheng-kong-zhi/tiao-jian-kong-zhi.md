@@ -67,17 +67,19 @@
 ```
 
 
-### 拓展: 随机数 -- random
+### 拓展
 &emsp;&emsp; 随机数函数 - random()
-* 导入模块
-* 使用模块功能(方法)，即 模块名.函数
-
 
 ```python
-   import random # 导入 random 模块
-   random.randint(开始,结束) # 调用随机 整数 方法, 开始 和 结束 为值区间范围，包括开始和结束
+   import random                # 导入 random 模块
+   random.randint(开始,结束)     # 调用随机 整数 方法, 开始 和 结束 为值区间范围，包括开始和结束
 
 ```
+&emsp;&emsp; 导入模块
+&emsp;&emsp; 使用模块功能(方法)，即 模块名.函数
+
+
+
 
 
 
