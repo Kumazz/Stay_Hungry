@@ -1,7 +1,7 @@
 # Day Base
 ### Python
 * **Python 2:** 已于 2020 年 1 月 1 日停止 Python 2 的技术支持
-* **Python 3:** Python主流版本，性能更加丰富完善，本学习文档基于 Python 3.9.x
+* **Python 3:** Python 主流版本，性能更加丰富完善，本学习文档基于 Python 3.9 以上
 
 &emsp;&emsp;**下载与安装:** https://www.python.org/downloads/
 ![](/assets/QQ20200722-162303@2x.png)
