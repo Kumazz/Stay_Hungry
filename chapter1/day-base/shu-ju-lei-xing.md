@@ -15,7 +15,7 @@
 ```
     
 &emsp;&emsp;&emsp;上述代码中 「 class 」这个字样表明这是一类( 型 )
-* Python 中其他数据类型如下:
+* Python 中主要类型如下:
   *  数值: int（整型）、float（浮点型）
   *  布尔型: True（真）、False（假）
   *  字符串: str
