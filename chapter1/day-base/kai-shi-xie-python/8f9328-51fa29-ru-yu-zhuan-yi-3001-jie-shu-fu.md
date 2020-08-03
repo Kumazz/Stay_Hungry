@@ -27,7 +27,7 @@
 ```
 &emsp;&emsp;上述代码中，「 % 」 是占位符，「 .1 」 . 表示保留小数，1 表示保留小数位，「 f 」 表示输出数据类型是浮点型；
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; %03d 表示在 % 后以 0 开头表示以 0 补全，3 表示占位多少位；
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; %(变量1，变量2)，可以添加多个变量和进行计算；
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; %( 变量1，变量2 )，可以添加多个变量和进行计算；
 
    
    *  str.format() 即 .format() 格式化输出，Python3.6 之前的格式化输出写法，即将落伍，代码如下:
@@ -39,7 +39,7 @@
       
    ```
    
-   *  f-string 即 f'{表达式}' 格式化输出，Python3.6 新增写法，代码如下:
+   *  f-string 即 f'{ 表达式 }' 格式化输出，Python3.6 新增写法，代码如下:
    
    
    ```python
