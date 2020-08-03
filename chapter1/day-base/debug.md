@@ -1,7 +1,7 @@
 # Bug与Debug
 ### Bug
-&emsp;&emsp; bug指程序运行时出现错误，debug指调试bug纠正错误
-*  常规排查方法: 通过IDE报错查看报错类型排查
+&emsp;&emsp; bug 指程序运行时出现错误，debug 指调试 bug 纠正错误
+*  常规排查方法， 通过 IDE 报错查看报错类型排查
 ![](/assets/QQ20200723-114051@2x.png)
 
 
@@ -21,13 +21,9 @@
     *  IndentationError: 缩进错误
        *  expected an indented block: 检查一下代码的缩进是否正确
        
-       
-    *  IndentationError: 缩进错误
-       *  expected an indented block: 检查一下代码的缩进是否正确
-
 
     *  KeyError: 键错误
-       *  "fond": 字典中没有该的key对应的值，检查一下键名或者字典数据是否正常
+       *  "fond": 字典中没有该的 key 对应的值，检查一下键名或者字典数据是否正常
     
           
     *  ValueError: 值错误
