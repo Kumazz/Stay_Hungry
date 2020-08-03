@@ -4,7 +4,7 @@
 * [Short Python](chapter1.md)
   * [Day Base](chapter1/day-base.md)
     * [基础认识](chapter1/day-base/kai-shi-xie-python.md)
-      * [注释、变量、赋值](chapter1/day-base/kai-shi-xie-python/zhu-shi-yu-bian-liang.md)
+      * [注释与变量](chapter1/day-base/kai-shi-xie-python/zhu-shi-yu-bian-liang.md)
       * [Bug与Debug](chapter1/day-base/debug.md)
       * [输出与输入](chapter1/day-base/kai-shi-xie-python/8f9328-51fa29-ru-yu-zhuan-yi-3001-jie-shu-fu.md)
       * [转义、元字符与结束符](chapter1/day-base/kai-shi-xie-python/zhuan-yi-3001-yuan-zi-fu-yu-jie-shu-fu.md)
