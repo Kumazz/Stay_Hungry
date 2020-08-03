@@ -38,9 +38,10 @@
 
 
 ```python
-    message = 'This is a Python Message'
+    >>> message = 'This is a Python Message'
+    >>> sum = 3 + 4
 ```
-&emsp;&emsp; 上述代码正确说法是 把一个字符串**赋值**给名叫 message 的变量
+&emsp;&emsp; 上述代码正确说法是: 第一个是把一个字符串**赋值**给名叫 message 的变量；第二个是将 3 + 4 相加后的和再赋值给名叫 sum 的变量
 
 
 *  变量名命名规则: 满足**Python标识符**命名规则
