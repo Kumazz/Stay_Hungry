@@ -40,40 +40,38 @@
 
   * float()转换成浮点数，**字符串**转换时中不可以包含非数字字符，**空字符串、字母都不可以转换为浮点数**
   
-```python
+ ```python
     num1 = 1 
     print(float(num1))  
     print(type(float(num1)))
-```
+ ```
 
-  * str()转换成字符串串类型
+  * str() -- 转换成字符串串类型
 
-``` python 
+ ``` python 
     num2 = 10 
-    print(type(str(num2)))
-``` 
+    print(type(str(num2))) 
+ ``` 
 
-  *  tuple() -- 将⼀一个序列列转换成元组 
+  *  tuple() -- 将一个序列列转换成元组 
 
-
-```python
+ ```python
     list1 = [10, 20, 30] 
     print(tuple(list1)) 
     print(type(tuple(list1)))
-```
+ ```
 
-
-  *  list() -- 将⼀一个序列列转换成列列表 
-  
-```python
+  *  list() -- 将一个序列列转换成列列表 
+   
+ ```python
     t1 = (100, 200, 300) 
     print(list(t1)) 
     print(type(list(t1)))
-```  
+ ```  
 
   *  eval() -- 将字符串串中的数据转换成Python表达式原本类型 
 
-```python
+ ```python
     str1 = '10'
     str2 = '[1, 2, 3]'
     str3 = '(1000, 2000, 3000)'
@@ -81,7 +79,7 @@
     print(type(eval(str2)))
     print(type(eval(str3))) 
 
-```
+ ```
 
 
 
