@@ -22,7 +22,7 @@
 
 ```
 
-* if...elif...（else） 语法 ，多重条件判断，链式条件
+* if...elif...（else） 语法 ，多重条件判断，链式条件，「 elif 」 是 else if 缩写，else 必须放在整个条件链的末尾，不过 else 并不是必须有的
 
 
 ```python
