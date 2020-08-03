@@ -1,6 +1,7 @@
 # 循环控制
-### while 语法
+### while 循环，又叫迭代
 
+*  while... 单条件
 
 ```python
     while 条件: 
@@ -13,12 +14,11 @@
     i = 0
     while i < 3:
         print('hello python')
-        i += 1
+        i += 1                      # 通过计数器控制，防止陷入死循环
       
 ```
 
-### while...else
-&emsp;&emsp; else下方缩进的代码指的是**当循环正常结束之后要执行的代码**
+* while...else ，else下方缩进的代码指的是**当循环正常结束之后要执行的代码**
 
 
 ```python
@@ -54,7 +54,7 @@
 
 
 ### for 语法
-
+* for...in
 
 ```python
     # 在 for 循环中 continue 不需要改变计数器 
@@ -63,13 +63,13 @@
         重复执行的代码2
         ...........
 ```
-### for...else
+* for...in...else
 
 ```python
     for 临时变量 in 序列:
-    重复执行的代码
+        重复执行的代码
     else:
-    循环正常结束之后要执行的代码
+        循环正常结束之后要执行的代码
 
 ```
 
