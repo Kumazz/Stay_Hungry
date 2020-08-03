@@ -107,7 +107,7 @@
 ```
 
 
-### 拓展 -- while...else、for...else退出
+### 拓展
 *  while...else 与 break
 
 ```python
@@ -137,7 +137,7 @@
 
 ```
 
-*  for...in...else 与 退出，与 while 一样，遇到 break 后面都不执行，遇到 continue 后面继续执行
+*  for...in...else 与 while 一样，遇到 break 后面都不执行，遇到 continue 后面继续执行
 
 
 
