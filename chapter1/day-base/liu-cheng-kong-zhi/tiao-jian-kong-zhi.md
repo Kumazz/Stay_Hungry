@@ -60,9 +60,9 @@
     a = 1
     b = 2
    
-    if a > b      # 先写 if 条件
-    a if a > b    # 将成立条件的结果写在 if 左边
-    a if a > b else b    # 再将不成立的结果写在 else 后面
+    if a > b                # 先写 if 条件
+    a if a > b              # 将成立条件的结果写在 if 左边
+    a if a > b else b       # 再将不成立的结果写在 else 后面
    
 ```
 
