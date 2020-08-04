@@ -43,20 +43,7 @@
 * in 和 not in
 
 
-#### 循环遍历
-* 遍历字典的 key
-  * for key in 字典序列.keys()
-  
-  
-* 遍历字典的 value
-  * for value in 字典序列.values()
-  
-* 遍历字典的元素( key 和 value )
-  * for item in 字典序列.items()
-  * 返回元组，元组1是 key ，元组2是 value
-  
-* 遍历字典的的键值对，即 拆包
-  * for key,value in 字典序列.items()
+
 
 
 
