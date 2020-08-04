@@ -15,6 +15,12 @@
     goods = buy()
     print(goods)
 ```
-&emsp;&emsp; 
+&emsp;&emsp; return 负责函数返回值
+&emsp;&emsp; return 退出当前函数，导致 return 下方的所有代码(函数体内部)不执行
+
+
+
+
+
 
 
