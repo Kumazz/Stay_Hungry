@@ -20,7 +20,7 @@
       * [集合](chapter1/day-base/shu-ju-lei-xing/ji-he.md)
       * [推导式](chapter1/day-base/shu-ju-lei-xing/tui-dao-shi.md)
     * [函数](chapter1/day-base/han-shu.md)
-      * 参数
+      * [参数](chapter1/day-base/han-shu/can-shu.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
