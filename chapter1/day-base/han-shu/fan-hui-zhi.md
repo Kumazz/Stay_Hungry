@@ -12,7 +12,7 @@
     def buy():
         return '糖'
         print('ok')
-    goods = buy()
+    goods = buy()                 # 需要变量接收返回值
     print(goods)
 ```
 &emsp;&emsp; return 负责函数返回值
