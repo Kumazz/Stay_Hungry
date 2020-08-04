@@ -11,7 +11,7 @@
 ```python
     def buy():
         return '糖'
-        print('ok')
+        print('ok')               # 运行后查看是否执行该代码
     goods = buy()                 # 需要变量接收返回值
     print(goods)
 ```
