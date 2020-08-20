@@ -55,6 +55,26 @@
 ```
 
 
+* 缺省参数
+&emsp;&emsp;也叫默认参数，用于定义函数为参数提供默认值，调用函数时可不传该默认参数的值，**所有位置参数必须在默认参数前，包括函数定义和调用**
+
+
+
+```python
+    def user_info(name, age, gender='男'):
+    print(f'他的名字叫{name}，今年{age}岁了，性别是{gender}')
+
+    user_info('jerry', age=17)                              # 不传值则使用默认值
+
+    user_info('tom', 17, gender='女')                       # 缺省参数传值则修改默认参数值
+
+```
+
+
+
+
+
+
 
 * 可变参数
     *  \*args
