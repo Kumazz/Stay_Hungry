@@ -42,8 +42,29 @@
 ```
 
 
+* 关键字参数
+&emsp;&emsp;通过‘键=值’形式指定传递，函数调用时，**如果有位置参数，位置参数必须在关键字参数前面，关键字参数之间不存在先后顺序**
 
-* 缺省参数
+
+```python
+    def user_info(name, age, gender):
+        print(f'他的名字叫{name}，今年{age}岁了，性别是{gender}')
+
+    user_info('jerry', gender='男', age=17)           # 不报错，关键字参数之间不存在先后顺序
+
+```
+
+
+
+* 可变参数
+    *  \*args
+    *  \**kwargs
+
+
+
+
+
+
 
 
 
