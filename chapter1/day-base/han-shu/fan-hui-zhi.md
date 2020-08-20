@@ -12,8 +12,6 @@
 
 * 简单参数
 
-
-
 ```python
     def buy():
         return '糖'
