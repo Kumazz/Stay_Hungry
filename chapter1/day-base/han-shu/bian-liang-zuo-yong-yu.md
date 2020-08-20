@@ -58,10 +58,20 @@
 &emsp;&emsp;必须要先用 global **声明一下变量**
 
 
-
-
 ```python
-    
+    a = 100
+
+    def testA():
+        print(a)
+        
+    def testB():
+        global a            # 先用 global 声明变量  
+        a = 20
+        print(a)
+        
+    testA()                  >>> 100          # 根据程序运行顺序，这一步不受影响   
+    testB()                  >>> 20
+    print(a)                 >>> 20
 
 ```
 
