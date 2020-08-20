@@ -36,6 +36,21 @@
 
 ```
 
+* 多个返回值写法
+
+
+```python
+    def return_num():
+    return 1, 2                           # 以 ，隔开
+
+    result = return_num()
+    print(result)                         # 返回的是元组
+
+```
+
+
+
+
 
 
 
