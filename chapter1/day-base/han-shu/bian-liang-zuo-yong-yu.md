@@ -29,12 +29,32 @@
     def testB():
         print(a)
     
-    testA()
-    testB()
+    testA()                       >>> 150
+    testB()                       >>> 150
 
 ```
 
 ### 全局变量与内部变量存在
+&emsp;&emsp;如果同时存在，局部变量不会受全局变量影响
+
+
+```python
+    a = 100
+
+    def testA():
+        print(a)
+    
+    def testB():
+        a = 20
+        print(a)
+    
+    testA()                      >>> 100
+    testB()                      >>> 20
+    print(a)                     >>> 100
+
+```
+
+
 
 
 
