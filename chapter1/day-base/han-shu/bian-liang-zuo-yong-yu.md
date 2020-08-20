@@ -7,7 +7,7 @@
 
 ```python
     def testA():
-        a = 100
+        a = 100                 # 函数体内部定义的变量
         print(a)
     testA()                      >>> 100
     print(a)                     >>> name 'a' is not defined
@@ -18,6 +18,23 @@
 
 ### 全局变量
 &emsp;&emsp;在**函数体内、外部生效**的变量，起到一个共用的作用
+
+
+```python
+    a = 150                        # 函数体外部定义的变量         
+
+    def testA():
+        print(a)
+    
+    def testB():
+        print(a)
+    
+    testA()
+    testB()
+
+```
+
+
 
 
 
