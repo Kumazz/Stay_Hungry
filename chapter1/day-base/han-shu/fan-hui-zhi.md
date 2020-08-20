@@ -16,7 +16,7 @@
     def buy():
         return '糖'
         print('ok')               # 运行后查看是否执行该代码
-    goods = buy()                 # 需要变量接收返回值
+    goods = buy()                 # 使用变量保存函数返回值
     print(goods)
 ```
 
