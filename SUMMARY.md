@@ -22,6 +22,7 @@
     * [函数](chapter1/day-base/han-shu.md)
       * [参数](chapter1/day-base/han-shu/can-shu.md)
       * [返回值](chapter1/day-base/han-shu/fan-hui-zhi.md)
+      * [高阶函数](chapter1/day-base/han-shu/gao-jie-han-shu.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)

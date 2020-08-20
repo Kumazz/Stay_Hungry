@@ -1,6 +1,6 @@
 # 函数
 ### 作用
-&emsp;&emsp;具有独立功能的代码块，高效实现**代码重用**
+&emsp;&emsp;具有独立功能的代码块，封装代码，高效实现**代码重用**
 
 ### 定义和调用
 
@@ -61,6 +61,23 @@
         :return: 返回值
 
 ```
+
+### 嵌套函数
+
+
+
+```python
+    def testB():
+        print('--testB start--')
+        print('这里是 testB 函数执行的代码')
+        print('-- testB end--')
+        
+    def testA():
+        print('--testA start--')
+        testB()
+        print('--testA end--')
+```
+
 
 
 
