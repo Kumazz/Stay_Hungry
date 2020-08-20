@@ -10,7 +10,7 @@
 
 ### 案例
 
-* 简单参数
+* 简单返回
 
 ```python
     def buy():
@@ -19,6 +19,25 @@
     goods = buy()                 # 使用变量保存函数返回值
     print(goods)
 ```
+
+* 返回值作为参数传递
+
+
+```python
+    def testA():
+    return 50
+
+    def testB(num):                # 需定义形参用于接收返回值
+        print(num)
+
+    result = testA()
+
+    testB(result)                  >>> 50     # 返回值作为参数传递
+
+```
+
+
+
 
 
 
