@@ -45,8 +45,8 @@
 ```python
     def sum_num(a, b):
     """                            # 双引号回车即可
-    求和函数
-    :param a: 参数 1
+    求和函数                        # 该函数说明
+    :param a: 参数 1               # 冒号后写作用
     :param b: 参数 2
     :return: 返回值
     """
