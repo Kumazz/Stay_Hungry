@@ -24,6 +24,7 @@
       * [参数](chapter1/day-base/han-shu/can-shu.md)
       * [拆包与引用](chapter1/day-base/han-shu/zu-chai-bao-yu-yin-yong.md)
       * [变量作用域](chapter1/day-base/han-shu/bian-liang-zuo-yong-yu.md)
+      * [函数加强](chapter1/day-base/han-shu/di-gui-han-shu.md)
       * [高阶函数](chapter1/day-base/han-shu/gao-jie-han-shu.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
