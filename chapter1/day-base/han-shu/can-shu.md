@@ -74,23 +74,25 @@
 * 不定长参数
 &emsp;&emsp;也叫可变参数，用于不确定调用的时候传递多少个参数(不传参也可以)的场景，可用包裹位置参数、关键字参数来进行参数传递
   *  \*args，包裹位置传递，**返回的是元组**
+  
+  ```python
+    def user_info(*args):             # 传递的所有参数都会被 args 变量收集
+    print(args)                       
 
-```python
-    def user_info(*args):
-    print(args)
-
-    user_info('tom')                  >>> ('tom')
+    user_info('tom')                  >>> ('tom',)
     user_info('t0m',18)               >>> ('t0m',18)
 
-```
+  ```
+
+  *  \*\*kwargs，包裹关键字传递，**返回的是字典**
 
 
-  *  \**kwargs
+  ```python
+    def user_info(**kwargs):         # 传递的所有关键字参数都会被 kwargs 变量收集
+    print(kwargs)                     
 
-
-```python
-
-```
+    user_info(age=18, gender='男')     >>> {'age': 18, 'gender': '男'}
+  ```
 
 
 
