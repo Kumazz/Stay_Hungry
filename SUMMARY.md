@@ -22,7 +22,7 @@
     * [函数](chapter1/day-base/han-shu.md)
       * [返回值](chapter1/day-base/han-shu/fan-hui-zhi.md)
       * [参数](chapter1/day-base/han-shu/can-shu.md)
-      * [组拆包与引用](chapter1/day-base/han-shu/zu-chai-bao-yu-yin-yong.md)
+      * [拆包与引用](chapter1/day-base/han-shu/zu-chai-bao-yu-yin-yong.md)
       * [变量作用域](chapter1/day-base/han-shu/bian-liang-zuo-yong-yu.md)
       * [高阶函数](chapter1/day-base/han-shu/gao-jie-han-shu.md)
   * [Web Time](chapter1/web-time.md)
