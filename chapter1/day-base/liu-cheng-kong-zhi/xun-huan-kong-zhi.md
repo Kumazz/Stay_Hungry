@@ -1,7 +1,7 @@
 # 循环控制
 ### while 循环，又叫迭代
 
-*  while... 单条件
+*  **while... 单条件**
 
 ```python
     while 条件: 
@@ -18,7 +18,7 @@
       
 ```
 
-* while...else ，else下方缩进的代码指的是**当循环正常结束之后要执行的代码**
+* **while...else** ，else下方缩进的代码指的是**当循环正常结束之后要执行的代码**
 
 
 ```python
@@ -54,7 +54,7 @@
 
 
 ### for 语法
-* for...in
+* **for...in**
 
 ```python
     # 在 for 循环中 continue 不需要改变计数器 
@@ -63,7 +63,7 @@
         重复执行的代码2
         ...........
 ```
-* for...in...else
+* **for...in...else**
 
 ```python
     for 临时变量 in 序列:
@@ -75,7 +75,7 @@
 
 ### break 和 continue 
 &emsp;&emsp; 循环中满足一定条件退出循环的两种不同方式
-*  break，满足条件后**break后面**的语句就不执行了，**终止此循环**
+*  **break**，满足条件后**break后面**的语句就不执行了，**终止此循环**
 
 
 
@@ -91,7 +91,7 @@
 ```
 
 
-*  continue，满足条件后**退出当前循环继而执行下一句代码**，但是要在** contine 前修改计数器**进行循环否则进入死循环
+*  **continue**，满足条件后**退出当前循环继而执行下一句代码**，但是要在** contine 前修改计数器**进行循环否则进入死循环
 
 
 ```python
@@ -108,7 +108,7 @@
 
 
 ### 拓展
-*  while...else 与 break
+*  **while...else 与 break**
 
 ```python
     # break后面的代码一律不运行，包括else
@@ -121,7 +121,7 @@
 
 ```
 
-*  while...else 与 continue
+*  **while...else 与 continue**
 
 
 
@@ -137,7 +137,7 @@
 
 ```
 
-*  for...in...else 与 while 一样，遇到 break 后面都不执行，遇到 continue 后面继续执行
+*  **for...in...else 与 while 一样**，遇到 break 后面都不执行，遇到 continue 后面继续执行
 
 
 
