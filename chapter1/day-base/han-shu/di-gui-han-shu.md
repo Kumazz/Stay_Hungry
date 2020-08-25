@@ -2,14 +2,29 @@
 ### 递归函数
 &emsp;&emsp;一个函数在内部调用自己本身
 * **特性**
-  * 必须是自己调用自己
+  * 必须是函数内部自己调用自己
   * 必须有一个明确的递归结束条件，即为递归出口
 
 
 * **应用场景**
   * 快速排序
   * 遍历文件夹下面文件
+  * 阶乘
   
+
+
+```python
+      def sum_nums(num):
+        if num == 1:
+        return 1
+      return num + sum_nums(num-1)
+
+      result = sum_nums(3)
+      print(result)
+
+```
+
+
 
 
 
