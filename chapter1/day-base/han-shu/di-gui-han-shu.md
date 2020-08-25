@@ -36,11 +36,9 @@
   *  表达式：不能包含循环、return，可以包含 if...else...
 
 ```python
-    def testA():
-        a = 100                 # 函数体内部定义的变量
-        print(a)
-    testA()                      >>> 100
-    print(a)                     >>> name 'a' is not defined
+    result = lambda x, y : x + y
+    print(result)                           # 返回的是函数
+    print(result(1, 2))                     # 调用时是 变量名()
         
 
 ```
