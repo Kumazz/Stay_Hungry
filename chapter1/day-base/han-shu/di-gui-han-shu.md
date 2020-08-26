@@ -67,7 +67,18 @@
 
 
 ```python
+    # 带判断的 lambda
+    fn = lambda a, b : a if a >b else b
+    print(fn(1, 2))
     
+    # 列表数据按字典 key 的值排序
+    students = [
+      {'name': 'tom', 'age': 20},
+      {'name': 'rose', 'age': 22},
+      {'name':'rose', 'age': 23}]
+    
+    students.sort(key = lambda x: x['name'])
+    print(students)
 
 ```
 
