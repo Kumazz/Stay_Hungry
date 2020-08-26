@@ -40,8 +40,7 @@
  
   ```
 
-  
-  *  reduce()
+ *  reduce()
   reduce(func, list)，其中**func 必须有两个参数**，每次 func 计算的结果继续和序列的下一个元素做**累积计算**
 
   ```python
@@ -56,9 +55,17 @@
     print(result)
   ```
 
-
-
   *  filter()
+  filter(func, list)，用于过滤序列，过滤掉不符合条件的元素，返回一个 filter 对象
+  ```python
+    list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    def func(x):
+    return x % 2 == 0
+
+    result = filter(func, list1)
+    print(result)
+    print(list(result))
+  ```
 
 
 
