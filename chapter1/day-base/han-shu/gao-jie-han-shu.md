@@ -40,7 +40,7 @@
  
   ```
 
- *  reduce()
+  *  reduce()
   reduce(func, list)，其中**func 必须有两个参数**，每次 func 计算的结果继续和序列的下一个元素做**累积计算**
 
   ```python
