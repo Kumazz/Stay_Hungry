@@ -58,8 +58,19 @@
     # 可变参数
     fn = lambda *args : args
     print(fn(1, 2, 3))                     # 返回元组
- 
+    
+    fn1 = lambda **kwargs : kwargs
+    print(fn1(name='tom', age=12))         # 返回字典
+  
 ```
+
+
+
+```python
+    
+
+```
+
 
 
 

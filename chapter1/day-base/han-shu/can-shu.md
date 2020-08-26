@@ -86,7 +86,6 @@
 
   *  **\*\*kwargs**，包裹关键字传递，**返回的是字典**，组包过程
 
-
   ```python
     def user_info(**kwargs):         # 传递的所有关键字参数都会被 kwargs 变量收集
     print(kwargs)                     
