@@ -26,9 +26,7 @@
   *  map()
   map(func, list)，将传入的函数（名） func **（函数功能）**作用到 list 变量的每个元素中，并将结果组成新的列表(Py2) / 迭代器(Py3)
 
-
-
-```python
+  ```python
     # 求列表中元素的 2 次方
     list1 = [1, 2, 3, 4, 5]
     
@@ -40,21 +38,23 @@
     print(result)                           # 返回迭代器内存地址
     print(list(result))                     # 转换列表
  
-```
-
+  ```
 
   
   *  reduce()
   reduce(func, list)，其中**func 必须有两个参数**，每次 func 计算的结果继续和序列的下一个元素做**累积计算**
 
-
-
-```python
+  ```python
     # 计算列表序列中各个数字的累加和
+    import functools
+    list1 = [1, 2, 3, 4, 5]
+    
+    def func(a, b):
+    return a + b
 
-```
-
-
+    result = functools.reduce(func, list1)
+    print(result)
+  ```
 
 
 
