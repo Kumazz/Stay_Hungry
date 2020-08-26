@@ -24,7 +24,25 @@
 
 * **内置高阶函数**
   *  map()
-&emsp;&emsp;map(func, list)，将传入的函数变量 func 作用到 list 变量的每个元素中，并将结果组成新的列表(Py2) / 迭代器(Py3)
+&emsp;&emsp;map(func, list)，将传入的函数变量 func **函数功能**作用到 list 变量的每个元素中，并将结果组成新的列表(Py2) / 迭代器(Py3)
+
+
+
+```python
+    # 求列表中元素的 2 次方
+    list1 = [1, 2, 3, 4, 5]
+    
+    def func(x):                            # 定义计算 2 次方函数
+      return x ** 2
+
+    result = map(func, list1)               # 将 函数名 作为第一个参数代入
+
+    print(result)                           # 返回迭代器内存地址
+    print(list(result))                     # 转换列表
+ 
+```
+
+
   
   *  reduce()
 
