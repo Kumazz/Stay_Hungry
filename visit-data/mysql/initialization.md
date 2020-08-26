@@ -64,7 +64,7 @@
     net stop mysql                         # 停止 MySQL 服务
     cd x:mysql-8.0.16-winx64\bin           # 进入可执行文件目录
     mysqld --skip-grant-tables;            # 跳过权限表认证
-    新打开一个 DOS 窗口再次进入可执行文件目录
+    新打开一个 DOS 窗口再次进入可执行文件目录输入 mysql -uroot -p ，直接回车
     UPDATE user SET password=password("新密码") WHERE user="root";    # 给 root 设置新密码
     flush privileges;                     # 将数据读取到内存中，从而立即生效
     quit;                                 # 退出
