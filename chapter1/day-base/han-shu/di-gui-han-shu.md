@@ -37,11 +37,32 @@
 
 ```python
     result = lambda x, y : x + y
-    print(result)                           # 返回的是函数
+    print(result)                           # 返回的是函数地址
     print(result(1, 2))                     # 调用时是 变量名()
         
 
 ```
-&emsp;&emsp; 局部变量作用: 在函数体内部，临时保存数据，即当函数调用完成后，则销毁局部变量
+
+
+
+```python
+    # 默认参数
+    result = lambda a, b, c=100 : a + b + c
+    print(result(10, 20))
+
+```
+
+
+
+```python
+    # 可变参数
+    fn = lambda *args : args
+    print(fn(1, 2, 3))                     # 返回元组
+ 
+```
+
+
+
+
 
 
