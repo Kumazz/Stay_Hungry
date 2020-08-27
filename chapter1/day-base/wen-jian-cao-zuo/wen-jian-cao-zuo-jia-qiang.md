@@ -10,7 +10,7 @@
 
     index = old_file_name.rfind('.')
 
-    if index > 0:                              # 后缀下标是大于 0 的
+    if index > 0:                                      # 后缀下标是大于 0 的
     postfix = old_file_name[index:]
 
     new_file_name = old_file_name[:index] + '[备份]' + postfix
