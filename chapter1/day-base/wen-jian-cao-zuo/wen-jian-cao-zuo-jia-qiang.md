@@ -44,6 +44,23 @@
   ```
 
 *  文件夹操作
+  *  导入模块，import os
+  *  os 模块方法，os.函数名()
+  
+  ```python
+      # 创建文件夹
+      os.mkdir(文件名)
+      
+      # 获取当前目录
+      os.getcwd()
+      
+      # 改变默认目录
+      os.chdir( 目录 )
+      
+      # 获取目录列表
+      os.listdir( 目录 )
+  ```
+
 
 
 
