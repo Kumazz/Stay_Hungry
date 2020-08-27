@@ -2,8 +2,31 @@
 
 ### 文件备份
 
-*  **读( r )，只读模式打开文件，这是默认模式，可以不写**，文件指针在文件的开头，如果文件不存在就报错
-  * rb ，二进制格式只读模式，**这是默认模式**
-  * r +，读写模式
-  * rb +，二进制读写模式
+
+
+```python
+    # 任意文件添加 备份 样式
+    old_file_name = input('请输入您要备份的文件: ')
+
+    index = old_file_name.rfind('.')
+
+    if index > 0:                              # 后缀下标是大于 0 的
+    postfix = old_file_name[index:]
+
+    new_file_name = old_file_name[:index] + '[备份]' + postfix
+
+    old_file = open(old_file_name)
+    new_file = open(new_file_name, 'w')
+
+    while True:
+        con = old_file.read(1024)
+        if len(con) == 0:
+            break
+        new_file.write(con)
+
+    old_file.close()
+    new_file.close()
+```
+
+
 
