@@ -38,6 +38,16 @@
 
 
 
+```python
+    f = open('test1.txt')
+    result = f.readlines()
+    print(result)
+    f.close()
+
+```
+
+
+
 
 
 
