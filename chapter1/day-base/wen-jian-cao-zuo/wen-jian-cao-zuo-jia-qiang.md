@@ -11,7 +11,7 @@
     index = old_file_name.rfind('.')
 
     if index > 0:                                      # 后缀下标是大于 0 的
-    postfix = old_file_name[index:]
+        postfix = old_file_name[index:]
 
     new_file_name = old_file_name[:index] + '[备份]' + postfix
 
@@ -36,8 +36,11 @@
   *  os 模块方法，os.函数名()
   
   ```python
-      # 文件重命名
+      # 重命名文件
       os.rename( 目标文件名,新文件名 )
+      
+      # 删除文件
+      os.renove( 目标文件名 )
   ```
 
 *  文件夹操作
