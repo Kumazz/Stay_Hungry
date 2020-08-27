@@ -54,15 +54,36 @@
       # 删除文件夹
       os.rmdir( 文件夹名 )
       
+      # 重命名文件夹
+      os.rename( 文件夹名 )
+      
       # 获取当前目录，需变量接收
       os.getcwd()
       
       # 改变默认目录
       os.chdir( 目录 )
       
-      # 获取目录列表
+      # 获取目录列表，以列表的形式返回一级目录下的目录
       os.listdir( 目录 )
   ```
+
+
+### 批量操作文件或文件夹
+* 添加指定重命名
+
+
+```python
+    import os
+    file_list = os.listdir()
+
+    for i in file_list:
+        new_name = 'Python' + i
+        os.rename(i, new_name)
+
+```
+
+* 添加指定重命名
+
 
 
 
