@@ -83,8 +83,13 @@
 
 
 
-```
-
+```python
+    try:
+        f = open('test1.txt')
+    except Exception as e:
+        print(e)
+    finally:
+        f.close()
 ```
 
 
