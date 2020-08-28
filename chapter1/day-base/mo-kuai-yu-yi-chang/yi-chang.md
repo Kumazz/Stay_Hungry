@@ -82,7 +82,6 @@
 &emsp;&emsp;finally 表示的是无论是否异常都要执行的代码，例如关闭文件
 
 
-
 ```python
     try:
         f = open('test1.txt')
