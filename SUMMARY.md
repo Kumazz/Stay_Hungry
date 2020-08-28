@@ -30,6 +30,7 @@
       * [文件操作加强](chapter1/day-base/wen-jian-cao-zuo/wen-jian-cao-zuo-jia-qiang.md)
     * [模块与异常](chapter1/day-base/mo-kuai-yu-yi-chang.md)
       * [异常](chapter1/day-base/mo-kuai-yu-yi-chang/yi-chang.md)
+      * [模块](chapter1/day-base/mo-kuai-yu-yi-chang/mo-kuai.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
