@@ -39,16 +39,42 @@
 
 ```
 
-*  捕获异常描述信息，用于展示错误原因
+
+*  捕获所有异常，需要添加 Exception 这个异常父类
+
 
 
 ```
+    try:
+        print(1/0)
+    except Exception as e:
+        print(e)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+*  捕获异常描述信息，用于展示错误原因
+
+
+```python
     try:
         print(1/0)
     except (NameError,ZeroDivisionError) as result:
         print(result)
 
 ```
+*  捕获所有异常
+
+
 
 
 
