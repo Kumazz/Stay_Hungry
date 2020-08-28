@@ -54,12 +54,31 @@
 *  **捕获所有异常，需要添加 Exception 这个所有程序异常的父类**
 
 
-```
+```python
     try:
         print(1/0)
     except Exception as e:              
         print(e)
 ```
+
+
+### 异常的 else
+else表示的是try下没有异常要执行的代码
+
+```python
+    try:
+        print(1)
+    except Exception as e:
+        print(e)
+    else:
+        print('无异常')
+    -----------------------------------------
+    >>> 1
+    >>> 无异常
+
+```
+
+
 
 
 
