@@ -39,6 +39,21 @@
 
 ```
 
+*  捕获异常描述信息，用于展示错误原因
+
+
+```
+    try:
+        print(1/0)
+    except (NameError,ZeroDivisionError) as result:
+        print(result)
+
+```
+
+
+
+
+
 
 
 
