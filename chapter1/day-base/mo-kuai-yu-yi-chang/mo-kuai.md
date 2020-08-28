@@ -30,17 +30,39 @@
 
 ```
 
-*  **from..import ***
+*  **from..import ***，不建议使用
 
 
 
 ```python
-    from 模块名 import *
-    ----------------------------------------
+    from 模块名 import *        # * 表示所有功能
+    ------------------------------------------------------
     from math import *
     print(sqrt(9))
 
 ```
+
+### 定义别名 - as
+*  模块定义别名
+
+
+```python
+    import 模块名 as 别名
+
+```
+
+*  功能定义别名
+
+
+
+```python
+    from 模块名 import 功能 as 别名
+
+```
+
+
+
+
 
 
 
