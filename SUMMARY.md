@@ -28,6 +28,8 @@
       * [高阶函数](chapter1/day-base/han-shu/gao-jie-han-shu.md)
     * [文件操作](chapter1/day-base/wen-jian-cao-zuo.md)
       * [文件操作加强](chapter1/day-base/wen-jian-cao-zuo/wen-jian-cao-zuo-jia-qiang.md)
+    * [模块与异常](chapter1/day-base/mo-kuai-yu-yi-chang.md)
+      * [异常](chapter1/day-base/mo-kuai-yu-yi-chang/yi-chang.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
