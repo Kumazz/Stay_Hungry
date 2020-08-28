@@ -3,7 +3,7 @@
 &emsp;&emsp;模块能定义函数、类和变量，模块里也能包含可执行的代码
 
 ### 导入方式
-*  import
+*  **import**
 
 
 ```python
@@ -19,11 +19,34 @@
 
 ```
 
+*  **from..import..**
 
 
+```python
+    from 模块名 import 功能1，功能2...
+    -------------------------------------------------------
+    from math import sqrt
+    print(sqrt(9))
 
 ```
 
-*  **捕获指定异常**
+*  **from..import ***
+
+
+
+```python
+    from 模块名 import *
+    ----------------------------------------
+    from math import *
+    print(sqrt(9))
+
+```
+
+
+
+
+
+
+
 
 
