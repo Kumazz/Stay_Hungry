@@ -84,6 +84,24 @@
   *  使用 from 模块名 import 功能的时候，如果功能名字重复，调用到的是最后定义或导入的功能
 
 
+*  **__all__**
+  *  模块中有 __all__ 变量，当使用 from xxx import * 导入时，只能导入这个列表的中的元素
+  
+  ```python
+    # 制定一个 a 模块
+      __all__ = ['testA']                  # 只导入 testA 元素
+
+    def testA():
+        print('testA')
+
+    def testB():
+        print('testB')
+        
+    # 定义一个调用 a 模块的 b 模块
+    from a import *                       # 只能用该导入方式
+    testA()                               # 能得出结果
+    testB()                               # 报错
+  ```
 
 
 
