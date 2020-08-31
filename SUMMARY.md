@@ -31,6 +31,7 @@
     * [模块与异常](chapter1/day-base/mo-kuai-yu-yi-chang.md)
       * [异常](chapter1/day-base/mo-kuai-yu-yi-chang/yi-chang.md)
       * [模块](chapter1/day-base/mo-kuai-yu-yi-chang/mo-kuai.md)
+      * [包](chapter1/day-base/mo-kuai-yu-yi-chang/bao.md)
   * [Web Time](chapter1/web-time.md)
     * [Flask](chapter1/web-time/flask.md)
       * [虚拟环境](chapter1/web-time/flask/xu-ni-huan-jing.md)
