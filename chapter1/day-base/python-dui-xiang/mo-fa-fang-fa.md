@@ -6,7 +6,7 @@
   *  \_\_init__()方法，在创建一个对象时默认被调用，不需要手动调用
   *  \_\_init__()中的 self 参数，不需要开发者传递，Python 解释器会自动把**当前的对象引用**传递过去
   
-  ```python
+```python
     class Washer():
       def __init__(self): # 定义初始化方法，并自动传递实例对象参数 self
           self.width = 300 # 添加实例属性
@@ -17,7 +17,7 @@
 
     haier = Washer()
     haier.print_info()
-  ```
+```
   
 * ####带参数的\_\_init__()
 用于解决一个类创建多个对象时，给不同对象设置不同的初始化属性
