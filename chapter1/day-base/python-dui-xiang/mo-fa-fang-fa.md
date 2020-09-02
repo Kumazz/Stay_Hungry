@@ -20,7 +20,24 @@
 ```
   
 * ####带参数的\_\_init__()
-用于解决一个类创建多个对象时，通过**传递参数**给不同对象设置不同的初始化属性，上述案例中不同对象属性被固定住了
+用于解决一个类创建多个对象时，通过**传递参数**给不同对象设置不同的初始化属性(上述案例中不同对象属性被固定住了)
+
+```python
+    class Washer():
+        def __init__(self, width, height):
+            self.width = width
+            self.height = height
+
+        def print_info(self):
+            print(f'洗衣机的宽带是{self.width}')
+
+    haier = Washer(300, 100)
+    haier.print_info()
+
+    geli = Washer(400, 200)
+    geli.print_info()
+      
+```
 
 
 
