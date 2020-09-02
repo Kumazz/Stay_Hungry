@@ -39,6 +39,32 @@
       
 ```
 
+* ####\_\_str__()
+当使用 print 输出对象的时候，默认打印对象的内存地址。如果类定义了 \_\_str__ 方法，那么就会打印从这个方法中 return 的数据
+
+
+
+```python
+    class Washer():
+        def __init__(self):
+            self.width = 300
+
+        def __str__(self):
+            return '情况说明'
+
+    haier = Washer()
+    print(haier)
+
+```
+
+* ####\_\_del__()
+当删除对象是， Python 解释器也会默认调用 \_\_del__()方法
+
+
+
+
+
+
 
 
 
