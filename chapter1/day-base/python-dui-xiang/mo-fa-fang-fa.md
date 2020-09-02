@@ -8,12 +8,12 @@
   
 ```python
     class Washer():
-      def __init__(self): # 定义初始化方法，并自动传递实例对象参数 self
-          self.width = 300 # 添加实例属性
+      def __init__(self):             # 定义初始化方法，并自动传递实例对象参数 self
+          self.width = 300            # 添加实例属性
           self.height = 500
 
     def print_info(self):
-      print(f'洗衣服的宽度是:{self.width}') # 类里面调用实例属性
+      print(f'洗衣服的宽度是:{self.width}')       # 类里面调用实例属性
 
     haier = Washer()
     haier.print_info()
