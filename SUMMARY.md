@@ -28,6 +28,7 @@
       * [高阶函数](chapter1/day-base/han-shu/gao-jie-han-shu.md)
     * [面向对象](chapter1/day-base/python-dui-xiang.md)
       * [详解对象](chapter1/day-base/python-dui-xiang/xiang-jie-dui-xiang.md)
+      * [魔法方法](chapter1/day-base/python-dui-xiang/mo-fa-fang-fa.md)
     * [文件操作](chapter1/day-base/wen-jian-cao-zuo.md)
       * [文件操作加强](chapter1/day-base/wen-jian-cao-zuo/wen-jian-cao-zuo-jia-qiang.md)
     * [模块与异常](chapter1/day-base/mo-kuai-yu-yi-chang.md)
