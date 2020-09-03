@@ -12,10 +12,10 @@
 
   
 ### 定义类和调用
-&emsp;&emsp;Python2 中类分为: 经典类 和 新式类
+&emsp;&emsp;Python2 中类分为: 经典类 和 新式类，区别在于经典类参数不继承 object
 
 ```python
-    class 类名():                  # 1. 先用 class 定义类
+    class 类名(object):                  # 1. 先用 class 定义类
         代码1
         代码2
         ....

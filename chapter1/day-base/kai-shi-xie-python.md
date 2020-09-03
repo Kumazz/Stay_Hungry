@@ -20,4 +20,6 @@
 
 *  **WIN:** Ctrl + Shift + F10，运行文件
 
+*  代码规范调节: Pycharm - Code - Reformat Code [ option + cmd + L ]
+
 
